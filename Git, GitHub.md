@@ -31,6 +31,7 @@ We make any change in repo. Now we have changes that are not yet tracked. To tra
 
 >Files to be ignored by git are added in .gitignore file. Ex- if we want to ignore all txt files then we can add a line * .txt in .gitignore file.
 
+The `git -C` option allows you to run Git commands in a specified directory without changing your current working directory.
 ### Branch commands
 
 - git branch name -> to create a new branch

@@ -1,0 +1,14 @@
+{
+  "server": "https://api.note.sx",
+  "uid": "0269f697c08f1ba5066cb91a241d8619",
+  "apiKey": "0d03c6f978699abf8e3de2fb161162fa",
+  "yamlField": "share",
+  "noteWidth": "",
+  "theme": "Minimal",
+  "themeMode": 0,
+  "titleSource": 0,
+  "removeYaml": true,
+  "clipboard": true,
+  "shareUnencrypted": false,
+  "authRedirect": null
+}

@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "74052b9e36408d44",
+    "type": "split",
+    "children": [
+      {
+        "id": "07e8419db724b770",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b959f912c26c9113",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6424a69eb7d1cd08",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "51a1440e237e87cc",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byModifiedTime"
+          }
+        }
+      },
+      {
+        "id": "2c16418d181685be",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "85814f34c97167e1",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "cb632b29d37ceac1",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "0470bb3ab00f391b",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "5190cde507d65084",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "651955cb98d790a8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "JavaScript/JavaScript.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "929cfe66e3bfa26a",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "JavaScript/JavaScript.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e801b5f9367e260f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "JavaScript/JavaScript.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "51a1440e237e87cc",
+  "lastOpenFiles": [
+    "Docs/cron daemon.md",
+    "CSS/Inheritance.md",
+    "CSS/Untitled.md",
+    "Learning/JavaScript/Arrays.md",
+    "Untitled.md",
+    "Learning/WMC  -Midsem.md",
+    "Docs/Setting up new OS.md",
+    "Lists/Shopping/Monitor.md",
+    "Learning/CSS/Inheritence.md",
+    "Learning/CSS/Colors in CSS.md",
+    "Lists/Shopping/Gadgets List.md",
+    "Learning/Display types.md",
+    "Learning/HTML/Validating webpages.md",
+    "Attachments/Pasted image 20230829222622.png",
+    "Learning/Web Development Roadmap.md",
+    "Learning/HTML/HTML.md",
+    "Attachments/HTML Tutorial for Beginners HTML Crash Course.gif",
+    "Attachments/Pasted image 20230826183938.png",
+    "Attachments/Pasted image 20230826025356.png",
+    "Learning/HTML",
+    "Attachments/Pasted image 20230828123039.png",
+    "Attachments",
+    "Lists/Shopping/Gadgets.md",
+    "Docs/Learning Obsidian.md",
+    "Docs/Automatic backup.md",
+    "Docs/Automated Git backup.md",
+    "Docs/Theming GNOME apps.md"
+  ]
+}

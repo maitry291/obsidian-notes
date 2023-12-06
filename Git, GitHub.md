@@ -38,6 +38,7 @@ We make any change in repo. Now we have changes that are not yet tracked. To tra
 - git checkout -b bname -> creates and switches to a branch
 - git merge -> to merge branches
 - git commit -am "" -> add and commit together
+- git branch -M main -> renaming the current branch (assuming you're on the branch you want to rename) from its current name to "main."
 
 >In Git, the `git stash` command is used to temporarily save changes that are not ready to be committed, allowing you to switch branches or perform other operations without committing incomplete work. The `git stash` command creates a stash, which is essentially a stack where you can store changes.
 

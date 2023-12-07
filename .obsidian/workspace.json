@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bda2b82179964fe0",
+            "id": "74820c7a8bc768a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git, GitHub.md",
+                "file": "HTML - skeleton.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git, GitHub.md",
+                "file": "HTML - skeleton.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git, GitHub.md",
+                "file": "HTML - skeleton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git, GitHub.md"
+                "file": "HTML - skeleton.md"
               }
             }
           },
@@ -165,12 +165,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bda2b82179964fe0",
+  "active": "74820c7a8bc768a0",
   "lastOpenFiles": [
-    "git_push_all.sh",
-    "Pasted image 20231206202638.png",
+    "Untitled.canvas",
+    "HTML - skeleton.md",
     "Dashboard.md",
     "Git, GitHub.md",
+    "Untitled/Untitled.md",
+    "Untitled/Untitled 1.md",
+    "Untitled",
+    "git_push_all.sh",
+    "Pasted image 20231206202638.png",
     "CSS/Responsive CSS/Position property.md",
     "CSS/Responsive CSS/flex-flow and flex.md",
     "CSS/Fundamentals/CSS Units.md",
@@ -193,9 +198,6 @@
     "HTML/Introduction to HTML.md",
     "JavaScript/JavaScript.md",
     "HTML/HTML.md",
-    "JavaScript/Immediately Invoked Function Expressions.md",
-    "Blogs/Developer Essentials.md",
-    "JavaScript/this Keyword.md",
     "Android",
     "Attachments/Pasted image 20231117142206.png",
     "Attachments/Pasted image 20231114162515.png",
@@ -210,9 +212,6 @@
     "Attachments/Pasted image 20231028142417.png",
     "Learning/50 Projects 50 Days",
     "Learning/DSA",
-    "Learning/JavaScript/JavaScript - Behind the Scenes",
-    "Archives",
-    "Docs/Arch Linux",
-    "Untitled.canvas"
+    "Learning/JavaScript/JavaScript - Behind the Scenes"
   ]
 }

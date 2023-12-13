@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML - skeleton.md",
+                "file": "CSS/CSS.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML - skeleton.md",
+                "file": "CSS/CSS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML - skeleton.md",
+                "file": "CSS/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML - skeleton.md"
+                "file": "CSS/CSS.md"
               }
             }
           },
@@ -168,13 +167,13 @@
   },
   "active": "74820c7a8bc768a0",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "HTML - skeleton.md",
+    "CSS/CSS.md",
+    "CSS",
+    "Untitled.canvas",
     "Dashboard.md",
     "Git, GitHub.md",
-    "Untitled/Untitled.md",
     "Untitled/Untitled 1.md",
-    "Untitled",
     "git_push_all.sh",
     "Pasted image 20231206202638.png",
     "CSS/Responsive CSS/Position property.md",

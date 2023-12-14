@@ -34,7 +34,7 @@ HyperText Markup Language - it's not a programming language.. it is a **markup l
 
 HTML (HyperText Markup Language) elements are the building blocks of web pages. They define the structure and content of a document by using a set of tags that enclose the different parts of the content. 
 
-### Basic Structure of an HTML Element:
+### Basic Structure of an HTML Element
 
 An HTML element is typically composed of a **opening tag, content, and an closing tag**. 
 
@@ -42,7 +42,7 @@ An HTML element is typically composed of a **opening tag, content, and an closin
 <tagname>Content goes here</tagname>
 ```
 
-### Types of HTML Elements:
+### Types of HTML Elements
 
 1. **Block-Level Elements:**
     - Start on a new line and take up the full width available.
@@ -66,7 +66,7 @@ An HTML element is typically composed of a **opening tag, content, and an closin
     - Used for specifying the overall document structure.
     - Examples: `<html>`, `<head>`, `<body>`, `<title>`, etc.
 
-### Attributes:
+### Attributes
 
 HTML elements can also have attributes that provide additional information about the element. Attributes are added to the start tag and are typically name-value pairs.
 
@@ -74,7 +74,7 @@ HTML elements can also have attributes that provide additional information about
 <tagname attribute="value">Content</tagname>
 ```
 
-### Self-Closing Elements:
+### Self-Closing Elements
 
 Some elements don't have a closing tag and are self-closing. They end with a forward slash before the closing angle bracket.
 
@@ -320,7 +320,7 @@ The `colspan` attribute specifies the number of columns a cell should span horiz
 
 The `<colgroup>` element in HTML is used to group a set of `<col>` elements within a table. It allows you to apply common styling or attributes to multiple columns in a more organised and concise way. The `<colgroup>` element is often used in conjunction with the `<col>` element.
 
-### `<colgroup>` Element:
+### `<colgroup>` Element
 
 - The `<colgroup>` element is a container for one or more `<col>` elements.
 - It is typically placed inside the `<table>` element, before the `<thead>`, `<tbody>`, `<tfoot>`, and `<tr>` elements.
@@ -340,11 +340,11 @@ The `<colgroup>` element in HTML is used to group a set of `<col>` elements with
 </table>
 ```
 
-### `<col>` Element:
+### `<col>` Element
 
 - The `<col>` element defines the properties for one or more columns within a `<colgroup>`.
 - It can be used to set styling or attributes that apply to all cells in a specific column.
-### Note:
+### Note
 
 - `<col>` elements can be used without a `<colgroup>`, but using them within a `<colgroup>` provides a more organised structure.
 - The `span` attribute of `<col>` specifies the number of columns that the `<col>` element should span.

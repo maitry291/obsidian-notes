@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "74820c7a8bc768a0",
+            "id": "983625516bfe5312",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/CSS.md",
-                "mode": "preview",
+                "file": "HTML - skeleton.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31843643518a32e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS -.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/CSS.md",
+                "file": "CSS -.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/CSS.md",
+                "file": "CSS -.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/CSS.md"
+                "file": "CSS -.md"
               }
             }
           },
@@ -165,17 +179,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "74820c7a8bc768a0",
+  "active": "31843643518a32e9",
   "lastOpenFiles": [
     "HTML - skeleton.md",
+    "CSS -.md",
+    "Pasted image 20231214202324.png",
+    "Pasted image 20231214181409.png",
+    "Pasted image 20231214170718.png",
+    "Pasted image 20231214180539.png",
+    "Dashboard.md",
+    "Pasted image 20231206202638.png",
     "CSS/CSS.md",
     "CSS",
     "Untitled.canvas",
-    "Dashboard.md",
     "Git, GitHub.md",
     "Untitled/Untitled 1.md",
     "git_push_all.sh",
-    "Pasted image 20231206202638.png",
     "CSS/Responsive CSS/Position property.md",
     "CSS/Responsive CSS/flex-flow and flex.md",
     "CSS/Fundamentals/CSS Units.md",
@@ -197,19 +216,14 @@
     "Attachments/Pasted image 20231122184802.png",
     "HTML/Introduction to HTML.md",
     "JavaScript/JavaScript.md",
-    "HTML/HTML.md",
     "Android",
     "Attachments/Pasted image 20231117142206.png",
     "Attachments/Pasted image 20231114162515.png",
     "Attachments/Pasted image 20231114162155.png",
-    "Attachments/Pasted image 20231114160614.png",
-    "Attachments/Pasted image 20231114151736.png",
     "Learning/CSS/Untitled",
     "Projects",
     "Blogs",
     "Learning/DSA/Arrays",
-    "Attachments/Pasted image 20231028143356.png",
-    "Attachments/Pasted image 20231028142417.png",
     "Learning/50 Projects 50 Days",
     "Learning/DSA",
     "Learning/JavaScript/JavaScript - Behind the Scenes"

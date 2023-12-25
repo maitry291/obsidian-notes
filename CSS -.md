@@ -191,7 +191,7 @@ The specificity of a selector is represented by a four-part value:
 ### Examples:
 
 1. **Inline Style vs. ID Selector:**
-```html
+```css
 #header { color: blue; } /* Specificity: 0100 */ 
 
 <div style="color: red;">...</div> <!-- Specificity: 1000 (Inline style) -->
@@ -201,8 +201,9 @@ The specificity of a selector is represented by a four-part value:
     
 2. **ID Selector vs. Class Selector:**
     
-```html
-#header { color: blue; } /* Specificity: 0100 */ .header { color: red; } /* Specificity: 0010 */ 
+```css
+#header { color: blue; } /* Specificity: 0100 */ 
+.header { color: red; } /* Specificity: 0010 */ 
 
 <div class="header">...</div> <!-- Specificity: 0010 (Class selector) -->
 ```
@@ -286,4 +287,155 @@ p {
 }
 ```
 
+
+## Position Property
+
+In CSS, the `position` property is used to control the positioning of an element within its containing element. It works in conjunction with other properties like `top`, `right`, `bottom`, and `left` to precisely place an element on the page. 
+
+1. **`static`:**
+    - This is the default value. An element with `position: static;` is positioned according to the normal flow of the document.
+    - The `top`, `right`, `bottom`, and `left` properties *have no effect* on a statically positioned element.
+    `.static-example {     position: static; }`
+2. **`relative`:**
+    - An element with `position: relative;` is positioned *relative to its normal position* in the document flow.
+    - Using `top`, `right`, `bottom`, or `left` will shift the element from its normal position, but the space it originally occupied is still reserved.
+    `.relative-example {     position: relative;     top: 10px;     left: 20px; }`
+3. **`absolute`:**
+    - An element with `position: absolute;` is positioned *relative to the nearest positioned (not static) ancestor*.
+    - If there is no such ancestor, it's positioned relative to the initial containing block (usually the `<body>` element).
+    - Absolute positioning takes the element out of the normal document flow.
+    `.absolute-example {     position: absolute;     top: 50px;     left: 30px; }`
+4. **`fixed`:**
+    - An element with `position: fixed;` is positioned relative to the browser window, and it stays in the same place even when the page is scrolled.
+    - Fixed positioning also takes the element out of the normal document flow.
+
+    `.fixed-example {     position: fixed;     top: 10px;     right: 10px; }`
+5. **`sticky`:**
+    - An element with `position: sticky;` is a hybrid of `relative` and `fixed`. It is treated as `relative` positioned until it crosses a specified point during scrolling, after which it is treated as `fixed`.
+    - The `top`, `right`, `bottom`, or `left` values are used to determine when the element becomes "sticky."
+    `.sticky-example {     position: sticky;     top: 20px; }`
+### When to Use
+
+- **Relative Positioning:**
+    - Use `position: relative;` when you want to move an element from its normal position but still want it to affect the layout of surrounding elements.
+- **Absolute Positioning:**
+    - Use `position: absolute;` when you want to take an element out of the normal document flow and position it precisely relative to its containing block.
+
+## CSS- transform
+
+CSS transforms provide a way to manipulate the position, size, and orientation of elements in the document. *Transforms do not affect the layout of the document flow*; instead, they alter the visual rendering of elements. 
+### Transform Functions
+
+1. **`translate()` Function:**
+    
+    - Moves an element from its current position in the horizontal and/or vertical direction.
+    - Example: `transform: translate(20px, 30px);`
+2. **`rotate()` Function:**
+    
+    - Rotates an element by a specified angle.
+    - Example: `transform: rotate(45deg);`
+3. **`scale()` Function:**
+    
+    - Changes the size of an element by a specified scale factor.
+    - Example: `transform: scale(1.5);`
+4. **`skew()` Function:**
+    
+    - Skews an element by a specified angle in the horizontal and/or vertical direction.
+    - Example: `transform: skew(30deg, 0);`
+5. **`matrix()` Function:**
+    
+    - Allows combining multiple transformations into a single function using a 6-value matrix.
+    - Example: `transform: matrix(1, 0.5, -0.5, 1, 0, 0);`
+
+### Transform Properties
+
+1. **`transform-origin` Property:**
+    
+    - Specifies the point around which a transformation is applied. It defines the origin of the transformation.
+    - Example: `transform-origin: 50% 50%;`
+2. **`transform-style` Property:**
+    
+    - Defines how nested elements are rendered in 3D space. It can be set to `flat` (the default) or `preserve-3d`.
+    - Example: `transform-style: preserve-3d;`
+
+### 3D Transforms
+
+CSS transforms can also be applied in 3D space, allowing for more complex visual effects. This involves using functions like `translate3d()`, `rotate3d()`, and `matrix3d()`.
+
+`.three-d-transform-example {     transform: perspective(500px) rotateX(45deg) rotateY(45deg); }`
+
+## FlexBox
+
+Flex box, or the Flexible Box Layout, is a powerful layout model in CSS that allows you to design complex and flexible layouts with ease. Here are the main properties associated with Flex-box, categorised by whether they apply to the container (parent) or the items (children).
+
+### Properties for the Container (Parent)
+
+1. **`display` (Container):**
+    - **Value:** `flex` or `inline-flex`
+    - **Description:** Defines a flex container. The `flex` value establishes a block-level flex container, while `inline-flex` establishes an inline-level flex container.
+    `.flex-container {     display: flex; }`
+    
+1. **`flex-direction`:**
+    - **Values:** `row`, `row-reverse`, `column`, `column-reverse`
+    - **Description:** Specifies the direction of the main axis, determining the direction in which the flex items are placed.
+    `.flex-container {     flex-direction: row; }`
+    
+3. **`flex-wrap`:**
+    - **Values:** `nowrap`, `wrap`, `wrap-reverse`
+    - **Description:** Controls whether the flex container is a single-line or multi-line layout.
+    `.flex-container {     flex-wrap: wrap; }`
+    
+4. **`flex-flow`:**
+    - **Values:** Combination of `flex-direction` and `flex-wrap`
+    - **Description:** Shorthand for setting both `flex-direction` and `flex-wrap` in a single property.
+    `.flex-container {     flex-flow: row wrap; }`
+    
+5. **`justify-content`:**
+    - **Values:** `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`
+    - **Description:** Aligns flex items along the main axis of the flex container.
+    `.flex-container {     justify-content: center; }`
+    
+6. **`align-items`:**
+    - **Values:** `flex-start`, `flex-end`, `center`, `baseline`, `stretch`
+    - **Description:** Aligns flex items along the cross axis of the flex container.
+    `.flex-container {     align-items: center; }`
+    
+7. **`align-content`:**
+    - **Values:** `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `stretch`
+    - **Description:** Aligns a flex container's lines within the flex container when there is extra space in the cross axis.
+    `.flex-container {     align-content: space-between; }`
+
+### Properties for the Items (Children)
+
+1. **`order`:**
+    - **Value:** Integer
+    - **Description:** Specifies the order in which a flex item appears within the flex container. Lower values come first.
+    `.flex-item {     order: 2; }`
+    
+2. **`flex`:**
+    - **Value:** Combination of `flex-grow`, `flex-shrink`, and `flex-basis`
+    - **Description:** Shorthand for setting all three `flex` properties in a single property.
+    `.flex-item {     flex: 1 0 auto; }`
+    
+3. **`flex-grow`:**
+    - **Value:** Number
+    - **Description:** Specifies the ability of a flex item to grow if necessary.
+    `.flex-item {     flex-grow: 2; }`
+    
+4. **`flex-shrink`:**
+    - **Value:** Number
+    - **Description:** Specifies the ability of a flex item to shrink if necessary.
+    `.flex-item {     flex-shrink: 1; }`
+    
+5. **`flex-basis`:**
+    - **Value:** Length, percentage, or `auto`
+    - **Description:** Specifies the initial size of a flex item before any remaining space is distributed.
+    `.flex-item {     flex-basis: 50%; }`
+    
+6. **`align-self`:**
+    - **Values:** `auto`, `flex-start`, `flex-end`, `center`, `baseline`, `stretch`
+    - **Description:** Allows the default alignment to be overridden for a specific flex item.
+    `.flex-item {     align-self: flex-end; }`
+
+## Grid
 

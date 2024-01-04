@@ -1,0 +1,294 @@
+
+JavaScript makes web pages doing nothing to user interactive.
+
+Browser APIs - DOM, Canvas, Geolocation, etc
+3rd party APIs - Twitter, Google Maps, etc
+
+>When you load a web page in your browser, you are running your code (the HTML, CSS, and JavaScript) inside an execution environment (the browser tab). This is like a factory that takes in raw materials (the code) and outputs a product (the web page).
+
+Each browser tab has its own separate bucket for running code in (these buckets are called "execution environments" in technical terms) — this means that in most cases the code in each tab is run completely separately, and *the code in one tab cannot directly affect the code in another tab* — or on another website. This is a good security measure — if this were not the case, then pirates could start writing code to steal information from other websites, and other such bad things.
+
+JavaScript is a lightweight *interpreted* programming language. The web browser receives the JavaScript code in its original text form and runs the script from that. From a technical standpoint, most modern JavaScript interpreters actually use a technique called **just-in-time compiling** to improve performance of interpreted language; the JavaScript source code gets compiled into a faster, binary format while the script is being used, so that it can be run as quickly as possible. However, *JavaScript is still considered an interpreted language, since the compilation is handled at run time, rather than ahead of time.*
+
+
+>Variables can contain letters, numbers and underscore(_ ), dollar-$
+
+VALUE - OBJECT OR PRIMITIVE
+
+Object:
+let me = {
+name: 'Jonas'
+}
+
+Primitive:
+let firstName = 'Jonas';
+let age = 30;
+
+## 7 primitive data types
+
+Number, String, Boolean, Undefined, Null, Symbol, BigInt
+
+Undefined is a data type in JavaScript used to represent a variable that hasn't been assigned any value yet.
+
+In JavaScript, the `undefined` value is reserved as the default value when a variable is declared, while `null` means you intentionally assign an "empty" value for the variable.
+
+>JavaScript treats `undefined` as the "default" empty value and `null` as the "intentional" empty value.
+
+### Types of declaring variable - let, const, var
+
+Var is function scoped. On the other hand let and const are block scoped.
+
+If you can't do as much with `const` as you can with `let`, why would you prefer to use it rather than `let`? In fact `const` is very useful. If you use `const` to name a value, it tells anyone looking at your code that this name will never be assigned to a different value.
+### Type coercion
+
+In JavaScript, type coercion is a process where a value of one type is implicitly converted into another type.
+
+This is *automatically done by JavaScript* so that your code won't cause an error. But as you'll see in this section, type coercion can actually cause undesired behaviour in the program.
+
+```js
+1 + "1" // "11"
+[1 ,2] + "1" // "1,21"
+true + "1" // "true1"
+
+true + 1 // 1+1 = 2
+false + 1 // 0+1 = 1
+[1,2] + 1 // "1,21"
+```
+
+But the order of the values matters when you have an object. Writing objects first always returns numeric `1`:
+
+```js
+{ a: 1 } + "1" // 1
+"1" + { a: 1 } // "1[object Object]"
+true + { a: 1 } // "true[object Object]"
+{ a: 1 } + 1 // 1
+```
+
+Precedence of operators from mdn 
+
+history of javascript
+
+## Behind the scenes of JavaScript
+
+### High-level 
+
+Developer does not have to manage low level things like memory management. It will be done by the language.
+### Garbage-collected
+
+Automatically frees up the space by removing unused memory locations.
+### Interpreted or just-in-time compiled
+
+
+### Multi-paradigm
+
+### Prototype-based object-oriented
+
+![[Pasted image 20240103160231.png]]
+
+### First-class functions 
+https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function
+
+Functions are treated just as variables. For example, a function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable.
+### Dynamic
+
+datatype of variable is dynamic, we don't manually need to mention the datatype of the variable.
+### Single-threaded
+
+JavaScript runs in one single thread i.e., it can do only one task at a time.
+
+concurrency model-
+### Non-blocking event loop
+
+Using event loops, can execute long running tasks in background. JavaScript is single-threaded, meaning it can only execute one operation at a time. To handle asynchronous operations, JavaScript uses an event loop. Asynchronous tasks, like fetching data or handling user input, are offloaded to the browser's APIs. When the task is completed, it's placed in the callback queue. The event loop continuously checks the callback queue and, if the call stack is empty, moves tasks from the queue to the call stack for execution.
+
+## JavaScript engine and runtime
+
+JS engine : program that executes javascript code. each browser has its own js engine.
+it has *call stack and heap*. Browsers have a JavaScript engine (like V8 in Chrome or SpiderMonkey in Firefox) responsible for interpreting and executing the JavaScript code.
+
+### Modern just in time compilation of JS
+
+![[Pasted image 20240103161322.png]]
+
+#### AST - Abstract Syntax Tree
+
+AST is a tree-like data structure where each node represents an element of the code's syntax. The tree is abstract because it discards certain details present in the actual source code, focusing on the essential structure.
+
+**EXECUTION CONTEXT** - Environment in which a piece of JavaScript is executed. Stores all the necessary information for some code to be executed. It includes variables, functions, and the scope chain.
+
+When JavaScript code is executed, the JavaScript engine creates an execution context for that code. There are two main types of execution contexts:
+
+a. **Global Execution Context:**
+- Created for the entire script, representing the global scope.
+- It's the default context, and there is only one global execution context in a program.
+- Includes global variables and functions.
+- Exists as long as the script is running.
+
+b. **Function Execution Context:**
+- Created each time a function is called.
+- Represents the local scope of the function.
+- Includes parameters, local variables, and inner functions.
+- Exists as long as the function is being executed.
+
+**Exactly one global execution context (EC)**: Default context, created for code that is not
+inside any function (top-level).
+
+**One execution context per function**: For each function call, a new execution context is created.
+
+![[Pasted image 20240103162609.png]]
+
+### Scope Chain
+
+JS has 3 types of scopes - Global, Function and Block scope.
+
+> The order of function calls does not affect the scope chain
+
+![[Pasted image 20240104195021.png]]
+
+Variables are not copied in the lower blocks. lower blocks can search for them in the upper blocks i.e. called variable look-up.
+
+![[Pasted image 20240104195635.png]]
+
+## Hoisting
+
+JavaScript interpreter splits the declaration and assignment of functions and variables: it "hoists" your declarations to the top of their containing scope before execution.
+
+This process is called hoisting, and it allows us to use variables/functions before its declaration.
+
+Variables declared with `let` and `const` are hoisted but not initialised with a default value. Variables declared with `var` are initialised with undefined. Accessing a `let` or `const` variable before it's declared will result in a `ReferenceError` but no error in case of `var`.
+
+```js
+//Working of hoisting
+ 
+console.log(me); //Output->undefined
+
+console.log(age); //Output->error not defined
+
+console.log(birthYear); //Output->error not defined
+
+var me = `maitry`;
+
+let age = 20;
+
+const birthYear = 2003;
+
+  
+
+console.log(dcl()); //Output->works
+
+console.log(expr); //Output->undefined and reference error if const
+
+//if var then just undefined
+
+console.log(arrow()); //Output->undefined and reference error if const
+
+//if var then just undefined
+
+function dcl() {
+
+console.log(`function declaration`);
+
+}
+
+var expr = function () {
+
+console.log(`function expression`);
+
+};  
+
+const arrow = () => {
+
+console.log(`arrow function`);
+
+};
+```
+
+### The temporal dead zone
+
+The reason that we get a reference error when we try to access a `let` or `const` variable before its declaration is because of the temporal dead zone (TDZ).
+
+The TDZ starts at the beginning of the variable's enclosing scope and ends when it is declared. Accessing the variable in this TDZ throws a `ReferenceError`.
+
+```js
+{
+ 	// Start of foo's TDZ
+  	let bar = 'bar';
+	console.log(bar); // "bar"
+
+	console.log(foo); // ReferenceError because we're in the TDZ
+
+	let foo = 'foo';  // End of foo's TDZ
+}
+```
+
+## This keyword
+
+```js
+//This keyword
+
+console.log(this); //Output->window object in browser
+
+const foo = function (a, b) {
+console.log(this); //output->undefined
+return a + b;
+};
+
+//arrow functions do not have this keywprd
+
+const arrow = (a, b) => {
+console.log(this); //output->window obj i.e this of parent's scope
+return a + b;
+};
+
+const jonas = {
+year: 1991,
+calcAge: function () {
+console.log(this);  
+console.log(2037 - this.year);
+},
+};
+
+jonas.calcAge(); //output-> jonas object
+
+const matilda = {
+year: 2017,
+};
+
+matilda.calcAge = jonas.calcAge;
+matilda.calcAge(); //output->matilda object
+
+const f = jonas.calcAge;
+f(); //output->undefined and error for undfined.year line
+```
+
+### Regular functions vs Arrow functions
+
+```js
+var firstName='maitry';
+
+//arrow functions do not have this keyword
+const arrow = (a, b) => {
+console.log(this.firstName); //output->maitry
+return a + b;
+};
+```
+
+Read more differences from - https://github.com/jonasschmedtmann/complete-javascript-course/blob/master/08-Behind-the-Scenes/final/script.js#L129C41-L129C41
+
+### Arguments keyword 
+
+```js
+// arguments keyword
+const addExpr = function (a, b) {
+  console.log(arguments);
+  return a + b;
+};
+addExpr(2, 5);
+addExpr(2, 5, 8, 12);  //works fine prints the array of args
+
+var addArrow = (a, b) => {
+  console.log(arguments);
+  return a + b;
+};
+addArrow(2, 5, 8);  //error: arguments is not defined
+```

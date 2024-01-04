@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS -.md",
+                "file": "CSS - Skin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a57a4e69dd184a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript - Brain.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS -.md",
+                "file": "JavaScript - Brain.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS -.md",
+                "file": "JavaScript - Brain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS -.md"
+                "file": "JavaScript - Brain.md"
               }
             }
           },
@@ -157,7 +169,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -179,20 +193,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "31843643518a32e9",
+  "active": "1a57a4e69dd184a7",
   "lastOpenFiles": [
+    "Pasted image 20240104195635.png",
+    "Pasted image 20240104195021.png",
+    "CSS - Skin.md",
+    "JavaScript - Brain.md",
     "HTML - skeleton.md",
-    "CSS -.md",
+    "Pasted image 20240103162609.png",
+    "Pasted image 20240103162542.png",
+    "Pasted image 20240103162515.png",
+    "Pasted image 20240103161322.png",
+    "Pasted image 20240103160231.png",
+    "Pasted image 20231231185854.png",
+    "Git, GitHub.md",
     "Pasted image 20231214202324.png",
     "Pasted image 20231214181409.png",
     "Pasted image 20231214170718.png",
-    "Pasted image 20231214180539.png",
     "Dashboard.md",
-    "Pasted image 20231206202638.png",
     "CSS/CSS.md",
     "CSS",
     "Untitled.canvas",
-    "Git, GitHub.md",
     "Untitled/Untitled 1.md",
     "git_push_all.sh",
     "CSS/Responsive CSS/Position property.md",
@@ -209,17 +230,11 @@
     "HTML/Forms in HTML.md",
     "HTML/div and span.md",
     "HTML/The Poem Problem.md",
-    "Attachments/Pasted image 20231123120752.png",
     "HTML/HTML Boilerplate.md",
     "HTML/HTML Links.md",
     "HTML/HTML Lists.md",
-    "Attachments/Pasted image 20231122184802.png",
     "HTML/Introduction to HTML.md",
-    "JavaScript/JavaScript.md",
     "Android",
-    "Attachments/Pasted image 20231117142206.png",
-    "Attachments/Pasted image 20231114162515.png",
-    "Attachments/Pasted image 20231114162155.png",
     "Learning/CSS/Untitled",
     "Projects",
     "Blogs",

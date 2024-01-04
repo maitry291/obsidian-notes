@@ -439,3 +439,12 @@ Flex box, or the Flexible Box Layout, is a powerful layout model in CSS that all
 
 ## Grid
 
+
+## Note
+
+>In CSS, `::before` and `::after` are pseudo-elements that allow developers to insert content before or after the content of an element, *without the need for additional HTML* markup. These pseudo-elements are powerful tools for adding decorative elements, icons, or other styling to web page elements.
+>
+>The `content` property is crucial for `::before` and `::after` to generate content. It can take various values like text, images, or counters.
+
+
+

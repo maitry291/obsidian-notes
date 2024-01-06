@@ -292,3 +292,18 @@ var addArrow = (a, b) => {
 };
 addArrow(2, 5, 8);  //error: arguments is not defined
 ```
+
+## Destructuring Arrays and Objects
+
+
+
+### Spread operator
+
+Works on all iterables but not on objects
+
+### The Rest pattern and parameters
+
+rest pattern has same syntax as spread operator but for destruction it is used on the left side of = operator.
+
+it is used as last argument and there can be only one rest pattern.
+

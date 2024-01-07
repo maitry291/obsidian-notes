@@ -296,7 +296,6 @@ addArrow(2, 5, 8);  //error: arguments is not defined
 ## Destructuring Arrays and Objects
 
 
-arthgbhjnmn
 ### Spread operator
 
 Works on all iterables but not on objects

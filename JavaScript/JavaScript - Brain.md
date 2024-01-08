@@ -355,5 +355,5 @@ console.log(guestCorrect);
 
 ### String primitives
 
-slice() method, split()
+slice() method, split(), join()
 

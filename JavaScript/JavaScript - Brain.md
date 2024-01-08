@@ -340,3 +340,17 @@ Values are copied into a new object
 
 it is used as last argument and there can be only one rest pattern.
 
+### Optional chaining
+
+```javascript
+// Optional Chaining
+if (restaurant.openingHours && restaurant.openingHours.mon)
+  console.log(restaurant.openingHours.mon.open);
+
+// console.log(restaurant.openingHours.mon.open);
+
+// WITH optional chaining
+console.log(restaurant.openingHours.mon?.open);
+console.log(restaurant.openingHours?.mon?.open);
+```
+

@@ -161,45 +161,30 @@ Variables declared with `let` and `const` are hoisted but not initialised wi
 //Working of hoisting
  
 console.log(me); //Output->undefined
-
 console.log(age); //Output->error not defined
-
 console.log(birthYear); //Output->error not defined
 
 var me = `maitry`;
-
 let age = 20;
-
 const birthYear = 2003;
 
-  
-
 console.log(dcl()); //Output->works
-
 console.log(expr); //Output->undefined and reference error if const
 
 //if var then just undefined
-
 console.log(arrow()); //Output->undefined and reference error if const
-
 //if var then just undefined
 
 function dcl() {
-
 console.log(`function declaration`);
-
 }
 
 var expr = function () {
-
 console.log(`function expression`);
-
 };  
 
 const arrow = () => {
-
 console.log(`arrow function`);
-
 };
 ```
 

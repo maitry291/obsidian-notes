@@ -336,5 +336,7 @@ Works on all iterables but not on objects
 
 Rest pattern has same syntax as spread operator but for destruction it is used on the left side of = operator.
 
+Values are copied into a new object
+
 it is used as last argument and there can be only one rest pattern.
 

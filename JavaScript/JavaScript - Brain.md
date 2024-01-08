@@ -355,3 +355,7 @@ console.log(guestCorrect);
 ### Enhanced object literals
 
 
+### String primitives
+
+slice() method
+

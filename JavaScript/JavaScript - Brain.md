@@ -135,8 +135,6 @@ inside any function (top-level).
 
 **One execution context per function**: For each function call, a new execution context is created.
 
-![[Pasted image 20240103162609.png]]
-
 ### Scope Chain
 
 JS has 3 types of scopes - Global, Function and Block scope.

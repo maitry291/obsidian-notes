@@ -334,7 +334,7 @@ Works on all iterables but not on objects
 
 ### The Rest pattern and parameters
 
-rest pattern has same syntax as spread operator but for destruction it is used on the left side of = operator.
+Rest pattern has same syntax as spread operator but for destruction it is used on the left side of = operator.
 
 it is used as last argument and there can be only one rest pattern.
 

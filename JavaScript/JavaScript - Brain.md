@@ -312,7 +312,7 @@ The `( )` around the assignment statement is required syntax when using the ob
 let person = {name: "Sarah", country: "Nigeria", job: "Developer"};
 let name, country, job;
 
-({name, country, job} = person);  //semicolon required otherwise
+({name, country, job} = person);  //semicolon required otherwise it might be used to execute a function from the previous line.
 
 console.log(name);//"Sarah"
 console.log(job);//"Developer"

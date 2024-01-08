@@ -295,7 +295,7 @@ addArrow(2, 5, 8);  //error: arguments is not defined
 
 ## Destructuring Arrays and Objects
 
-Came with ES6. 
+Came with ES6. we can extract data from arrays and objects and assign them to variables.
 ### Spread operator
 
 Works on all iterables but not on objects

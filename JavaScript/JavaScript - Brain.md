@@ -367,3 +367,5 @@ const guestCorrect = restaurant.numGuests ?? 10;
 console.log(guestCorrect);
 ```
 
+### Enhanced object literals
+

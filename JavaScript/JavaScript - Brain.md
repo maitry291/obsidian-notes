@@ -317,6 +317,8 @@ let name, country, job;
 console.log(name);//"Sarah"
 console.log(job);//"Developer"
 ```
+
+
 ### Spread operator
 
 Works on all iterables but not on objects

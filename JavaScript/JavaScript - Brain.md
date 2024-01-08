@@ -296,6 +296,27 @@ addArrow(2, 5, 8);  //error: arguments is not defined
 ## Destructuring Arrays and Objects
 
 Came with ES6. we can extract data from arrays and objects and assign them to variables.
+
+```javascript
+let person = {name: "Sarah", country: "Nigeria", job: "Developer"}; 
+let name, country, job;
+
+{name, country, job} = person;
+
+console.log(name);// Error : "Unexpected token ="
+```
+
+The `( )` around the assignment statement is required syntax when using the object literal destructuring assignment without a declaration. This is because the `{}` on the left hand side is considered a block and not an object literal. So here's how to do this the right way:
+
+```javascript
+let person = {name: "Sarah", country: "Nigeria", job: "Developer"};
+let name, country, job;
+
+({name, country, job} = person);
+
+console.log(name);//"Sarah"
+console.log(job);//"Developer"
+```
 ### Spread operator
 
 Works on all iterables but not on objects

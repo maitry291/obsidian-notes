@@ -355,5 +355,9 @@ console.log(guestCorrect);
 
 ### String primitives methods
 
-slice() method, split(), join(), pasStart(), padEnd(), replace()
+slice() method, split(), join(), pasStart(), padEnd(), replace(), repeat()
+
+## Closer look at functions
+
+
 

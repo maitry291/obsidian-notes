@@ -353,7 +353,7 @@ console.log(guestCorrect);
 ### Enhanced object literals
 
 
-### String primitives
+### String primitives methods
 
-slice() method, split(), join(), pasStart(), padEnd()
+slice() method, split(), join(), pasStart(), padEnd(), replace()
 

@@ -359,5 +359,5 @@ slice() method, split(), join(), pasStart(), padEnd(), replace(), repeat()
 
 ## Closer look at functions
 
-
+JavaScript does not pass by reference.
 

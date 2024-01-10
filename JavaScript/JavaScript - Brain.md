@@ -389,3 +389,5 @@ const isPrivate = 23;
 (() => console.log('This will ALSO never run again'))();
 ```
 
+### Closures
+

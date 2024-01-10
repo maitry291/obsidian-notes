@@ -216,8 +216,7 @@ console.log(this); //output->undefined
 return a + b;
 };
 
-//arrow functions do not have this keywprd
-
+//arrow functions do not have this keyword
 const arrow = (a, b) => {
 console.log(this); //output->window obj i.e this of parent's scope
 return a + b;

@@ -363,5 +363,5 @@ JavaScript does not pass by reference.
 
 ### First class and higher order functions
 
-
+benefit of higher order functions - abstraction
 

@@ -366,3 +366,6 @@ benefit of higher order functions - abstraction
 
 call() method apply()
 
+### Immediately invoked function expression
+
+

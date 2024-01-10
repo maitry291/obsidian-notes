@@ -393,4 +393,5 @@ const isPrivate = 23;
 
 A function always has access to the variables environment of the execution context in which it was created even after the execution context of the outer function is popped out from the stack.
 
-Closure: Variable environment attached to the function, exactly as it was at the time and place the function was created
+Closure: Variable environment attached to the function, exactly as it was at the time and place the function was created.
+A closure makes sure that a function doesn't loose connection to variables that existed at the function's birth place;

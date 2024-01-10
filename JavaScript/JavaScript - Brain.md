@@ -361,3 +361,7 @@ slice() method, split(), join(), pasStart(), padEnd(), replace(), repeat()
 
 JavaScript does not pass by reference.
 
+### First class and higher order functions
+
+
+

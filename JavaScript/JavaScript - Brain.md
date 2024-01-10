@@ -249,7 +249,7 @@ f(); //output->undefined and error for undfined.year line
 ```js
 var firstName='maitry';
 
-//arrow functions do not have this keyword so this w
+//arrow functions do not have this keyword so this will be equal to parent's this
 const arrow = (a, b) => {
 console.log(this.firstName); //output->maitry
 return a + b;

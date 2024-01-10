@@ -371,3 +371,21 @@ call() method apply()
 why do we need this? --
 not used much
 
+```js
+// Immediately Invoked Function Expressions (IIFE)
+const runOnce = function () {
+console.log('This will never run again');
+};
+
+runOnce();
+
+// IIFE
+(function () {
+console.log('This will never run again');
+const isPrivate = 23;
+})();
+
+// console.log(isPrivate);
+(() => console.log('This will ALSO never run again'))();
+```
+

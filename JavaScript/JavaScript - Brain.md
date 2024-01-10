@@ -391,4 +391,4 @@ const isPrivate = 23;
 
 ### Closures
 
-A function always has access to the variables in the environment it was created 
+A function always has access to the variables environment of the execution context in which it was created 

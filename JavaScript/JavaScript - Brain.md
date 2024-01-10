@@ -380,7 +380,7 @@ The bind() method creates a new function and when that new function is called it
 
 //bind method
 const indigo = buyTicket.bind(airline,45,7890,'kio');
-indigo(4, 6789, `Jeel Patel`); //this are of no meaning as we have already given the values with bind method
+indigo(4, 6789, `Jeel Patel`); //this arguments passed are of no meaning as we have already given the values with bind method
 ```
 ### Immediately invoked function expression
 

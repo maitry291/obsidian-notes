@@ -150,8 +150,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,7 +168,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a5f450232114871d",
+  "active": "913f5a8f300c2bac",
   "lastOpenFiles": [
     "JavaScript/JavaScript.md",
     "JavaScript/Pasted image 20240104195635.png",

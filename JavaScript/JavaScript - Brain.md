@@ -364,9 +364,12 @@ JavaScript does not pass by reference.
 
 A programming language is said to have First-class functions **if functions in that language are treated like other variables**. So the functions can be assigned to any other variable or passed as an argument or can be returned by another function. JavaScript treats function as a first-class citizen.
 
+Higher order functions are **functions that take one or more functions as arguments, or return a function as their result**.
+
 benefit of higher order functions - abstraction
 
-call() method apply()
+for 
+call() , apply()
 
 ### Immediately invoked function expression
 

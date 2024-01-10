@@ -365,3 +365,5 @@ JavaScript does not pass by reference.
 
 benefit of higher order functions - abstraction
 
+call() method
+

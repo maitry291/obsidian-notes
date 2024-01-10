@@ -155,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293
+    "width": 293,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,7 +169,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e5a51a66be22f4af",
+  "active": "a5f450232114871d",
   "lastOpenFiles": [
     "JavaScript/JavaScript.md",
     "JavaScript/Pasted image 20240104195635.png",

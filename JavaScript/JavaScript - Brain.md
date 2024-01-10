@@ -351,7 +351,7 @@ console.log(guestCorrect);
 
 ### Enhanced object literals
 
-
+A set of features that make working with objects in JavaScript *more concise* and expressive.
 ### String primitives methods
 
 slice() method, split(), join(), pasStart(), padEnd(), replace(), repeat()

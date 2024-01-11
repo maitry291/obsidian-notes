@@ -411,6 +411,9 @@ Functions that are executed as soon as they are mounted, these functions are kno
 })();
 ```
 
+1. IIFEs have their own scope i.e. the variables you declare in the Function Expression will not be available outside the function.
+2. Similarly to other functions IIFEs can also be named or anonymous, but even if an IIFE does have a name it is impossible to refer/invoke it.
+3. IIFEs can also have parameters.
 why do we need this? --
 not used much
 

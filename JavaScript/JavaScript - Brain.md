@@ -446,3 +446,5 @@ Closure: Variable environment attached to the function, exactly as it was at the
 A closure makes sure that a function doesn't loose connection to variables that existed at the function's birth place.
 
 JavaScript automatically does closure, we don't have to do anything explicitly.
+
+### ForEach method for array, map and set

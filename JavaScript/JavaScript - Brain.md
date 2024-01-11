@@ -403,6 +403,8 @@ indigo(4, 6789, `Jeel Patel`); //this arguments passed are of no meaning as we h
 ```
 ### Immediately invoked function expression
 
+A function that runs the moment it is invoked or called in the JavaScript event loop
+
 why do we need this? --
 not used much
 

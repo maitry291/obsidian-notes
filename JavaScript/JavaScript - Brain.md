@@ -403,7 +403,7 @@ indigo(4, 6789, `Jeel Patel`); //this arguments passed are of no meaning as we h
 ```
 ### Immediately invoked function expression
 
-A function that runs the moment it is invoked or called in the JavaScript event loop
+Functions that are executed as soon as they are mounted, these functions are known as **Immediately Invoked Function Expressions or IIFEs.**
 
 why do we need this? --
 not used much

@@ -403,7 +403,13 @@ indigo(4, 6789, `Jeel Patel`); //this arguments passed are of no meaning as we h
 ```
 ### Immediately invoked function expression
 
-Functions that are executed as soon as they are mounted, these functions are known as **Immediately Invoked Function Expressions or IIFEs.**
+Functions that are executed as soon as they are mounted, these functions are known as Immediately Invoked Function Expressions or IIFEs.
+
+```js
+(function (){ 
+// Function Logic Here. 
+})();
+```
 
 why do we need this? --
 not used much

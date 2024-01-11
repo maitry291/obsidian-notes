@@ -452,4 +452,4 @@ JavaScript automatically does closure, we don't have to do anything explicitly.
 ### Map, filter and reduce
 
 map method returns new array by computations provided.
-filter method makes 
+filter method makes array by filtering out according to the provided conditions i.e the array returned by filter method only contains elements which satisfies the condition in the function of filter method

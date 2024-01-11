@@ -369,7 +369,10 @@ Higher order functions are **functions that take one or more functions as argum
 benefit of higher order functions - abstraction
 
 for 
-call() , apply()
+### call() 
+
+
+, apply()
 
 #### Bind() Method:
 

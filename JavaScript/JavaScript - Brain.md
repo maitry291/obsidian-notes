@@ -451,4 +451,5 @@ JavaScript automatically does closure, we don't have to do anything explicitly.
 
 ### Map, filter and reduce
 
-map method returns new array
+map method returns new array by computations provided.
+filter method makes 

@@ -453,3 +453,8 @@ JavaScript automatically does closure, we don't have to do anything explicitly.
 
 map method returns new array by computations provided.
 filter method makes array by filtering out according to the provided conditions i.e the array returned by filter method only contains elements which satisfies the condition in the function of filter method
+
+```js
+const withdrawals = account1.movements.filter(mov => mov < 0);
+console.log(withdrawals);  //[-400, -650, -130]
+```

@@ -374,10 +374,12 @@ for
 The call() method *calls the function directly* and sets **this** to the first argument passed to the call method and if any other sequences of arguments preceding the first argument are passed to the call method then they are passed as an argument to the function.
 
 ```js
-
+Syntax:
+call(objectInstance)
+call(objectInstance, arg1, /* …, */ argN)
 ```
+#### apply() Method
 
-, apply()
 
 #### Bind() Method
 

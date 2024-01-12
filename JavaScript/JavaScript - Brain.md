@@ -482,3 +482,5 @@ find method returns the first element which meets the condition.
 ```js
 currAcc = accounts.find(acc => acc.userName === userName);
 ```
+
+findindex, some, every methods

@@ -496,7 +496,13 @@ console.log(arrDeep.flat(2));  //depth 2
 flatmap method only goes to 1 level of depth if we need to go more deep then we still need to use map and then do flat().
 
 ```js
+// flat
+const overalBalance = accounts
+.map(acc => acc.movements)
+.flat()
+.reduce((acc, mov) => acc + mov, 0);
 
+console.log(overalBalance);
 
 // flatMap
 const overalBalance2 = accounts

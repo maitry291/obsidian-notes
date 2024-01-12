@@ -477,4 +477,4 @@ labelBalance.textContent=`Rs. ${balance}`;
 };
 ```
 
-find method 
+find method returns the first element which meets the condition

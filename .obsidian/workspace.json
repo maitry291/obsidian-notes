@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -167,7 +168,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f9815398a3b261e4",
+  "active": "e5a51a66be22f4af",
   "lastOpenFiles": [
     "JavaScript/JavaScript.md",
     "Git/Git, GitHub.md",

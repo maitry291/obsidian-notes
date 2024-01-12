@@ -541,3 +541,6 @@ console.log(movements);
 movements.sort((a, b) => b - a);
 console.log(movements);
 ```
+
+![[Pasted image 20240113014626.png]]
+

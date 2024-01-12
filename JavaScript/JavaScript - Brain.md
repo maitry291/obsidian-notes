@@ -449,7 +449,7 @@ JavaScript automatically does closure, we don't have to do anything explicitly.
 
 ### ForEach method for array, map and set
 
-### Map, filter and reduce
+### Map, filter, reduce, find
 
 map method returns new array by computations provided.
 
@@ -476,3 +476,5 @@ const balance = account1.movements.reduce((accum, curr) => accum + curr, 0);
 labelBalance.textContent=`Rs. ${balance}`;
 };
 ```
+
+find method 

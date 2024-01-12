@@ -468,7 +468,7 @@ const withdrawals = account1.movements.filter(mov => mov < 0);
 console.log(withdrawals);  //[-400, -650, -130]
 ```
 
-reduce method has first parameter accumulator which stores all the results from array according to given statements. In below example accum stores the sum o
+reduce method has first parameter accumulator which stores all the results from array according to given statements. In below example `accum` stores the sum of the array elements
 
 ```js
 const calcBalance = function (movements) {

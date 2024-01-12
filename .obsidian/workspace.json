@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "Git/Git, GitHub.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "Git/Git, GitHub.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "Git/Git, GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md"
+                "file": "Git/Git, GitHub.md"
               }
             }
           },
@@ -150,7 +149,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -167,10 +167,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f9815398a3b261e4",
+  "active": "e5a51a66be22f4af",
   "lastOpenFiles": [
-    "CSS/CSS - Skin.md",
     "JavaScript/JavaScript - Brain.md",
+    "CSS/CSS - Skin.md",
     "JavaScript/JavaScript.md",
     "JavaScript/Pasted image 20240104195635.png",
     "JavaScript/Pasted image 20240104195021.png",

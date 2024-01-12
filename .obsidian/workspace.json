@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git, GitHub.md",
+                "file": "JavaScript/JavaScript - Brain.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git, GitHub.md",
+                "file": "JavaScript/JavaScript - Brain.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git, GitHub.md",
+                "file": "JavaScript/JavaScript - Brain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git, GitHub.md"
+                "file": "JavaScript/JavaScript - Brain.md"
               }
             }
           },
@@ -167,11 +167,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e5a51a66be22f4af",
+  "active": "f9815398a3b261e4",
   "lastOpenFiles": [
+    "JavaScript/JavaScript.md",
+    "Git/Git, GitHub.md",
     "JavaScript/JavaScript - Brain.md",
     "CSS/CSS - Skin.md",
-    "JavaScript/JavaScript.md",
     "JavaScript/Pasted image 20240104195635.png",
     "JavaScript/Pasted image 20240104195021.png",
     "JavaScript/Pasted image 20240103162609.png",
@@ -192,7 +193,6 @@
     "Untitled.canvas",
     "JavaScript",
     "git_push_all.sh",
-    "Git/Git, GitHub.md",
     "Dashboard.md",
     "CSS/CSS.md",
     "CSS",

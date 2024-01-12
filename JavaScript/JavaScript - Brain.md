@@ -511,3 +511,5 @@ const overalBalance2 = accounts
 
 console.log(overalBalance2);
 ```
+
+sort() - mutates the original array

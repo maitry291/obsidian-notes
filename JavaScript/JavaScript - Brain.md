@@ -512,7 +512,8 @@ const overalBalance2 = accounts
 console.log(overalBalance2);
 ```
 
-sort() - mutates the original array, sorting is based on string data type i.e numbers are also sorted by converting them to strings.
+#### sort()
+mutates the original array, sorting is based on string data type i.e numbers are also sorted by converting them to strings.
 
 ```js
 // Sorting Arrays
@@ -531,26 +532,12 @@ console.log(movements);
 // movements.sort((a, b) => {
 // if (a > b) return 1;
 // if (a < b) return -1;
-
 // });
 
 movements.sort((a, b) => a - b);
-
 console.log(movements);
 
-  
-
 // Descending
-
-// movements.sort((a, b) => {
-
-// if (a > b) return -1;
-
-// if (a < b) return 1;
-
-// });
-
 movements.sort((a, b) => b - a);
-
 console.log(movements);
 ```

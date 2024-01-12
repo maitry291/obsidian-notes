@@ -457,7 +457,7 @@ map method returns new array by computations provided.
 acc.userName = acc.owner
 .toLowerCase()
 .split(' ')
-.map(name => name[0])
+.map(name => name[0]). //map method returns array of first letter
 .join('');
 ```
 
@@ -467,3 +467,5 @@ filter method makes array by filtering out according to the provided conditions 
 const withdrawals = account1.movements.filter(mov => mov < 0);
 console.log(withdrawals);  //[-400, -650, -130]
 ```
+
+reduce method has first parameter accumulator which stores all t

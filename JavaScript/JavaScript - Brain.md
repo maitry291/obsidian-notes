@@ -549,7 +549,7 @@ console.log(movements);
 
 ## Numbers in JS
 
-stored in binary i.e. in 0's and 1's
+stored in binary i.e. in 0's and 1's 64-bits
 
 ### Conversion
 

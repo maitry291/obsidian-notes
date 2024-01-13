@@ -547,7 +547,9 @@ console.log(movements);
 
 ![[Pasted image 20240113014626.png]]
 
-## Numbers
+## Numbers in JS
+
+stored in binary i.e. in 0's and 1's
 
 ### Conversion
 

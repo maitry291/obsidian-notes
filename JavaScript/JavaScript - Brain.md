@@ -577,3 +577,4 @@ console.log(Number.isFinite('2')); //false
 
 ### Numeric separator __
 
+used between numbers only. string with numeric separator can't be converted to numbers

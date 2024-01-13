@@ -580,3 +580,5 @@ console.log(Number.isFinite('2')); //false
 used between numbers only. string with numeric separator can't be converted to numbers.
 use of `_` before and after `.` also not allowed. 
 use of `_` in start and end of the numbers also not allowed
+
+### BigInt prim

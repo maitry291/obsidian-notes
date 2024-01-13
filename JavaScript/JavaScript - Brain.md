@@ -558,3 +558,9 @@ console.log(+'t'); //NaN as Javascript behind the scenes does the type coersion 
 
 console.log(+'56.7'); //this works fine-converts string '56.7 to number 56.7
 ```
+
+### Parsing
+
+```js
+
+```

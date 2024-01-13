@@ -575,3 +575,5 @@ console.log(Number.isFinite(2)); //true
 console.log(Number.isFinite('2')); //false
 ```
 
+### Numeric separator __
+

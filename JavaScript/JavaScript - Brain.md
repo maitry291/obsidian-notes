@@ -563,7 +563,6 @@ console.log(+'56.7'); //this works fine-converts string '56.7 to number 56.7
 
 ```js
 //parsing
-
 console.log(Number.parseInt(' 30px ')); //30
 console.log(Number.parseInt('e30px')); //NaN
 console.log(Number.parseFloat('3.40px')); //3.4

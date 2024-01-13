@@ -559,8 +559,20 @@ console.log(+'t'); //NaN as Javascript behind the scenes does the type coersion 
 console.log(+'56.7'); //this works fine-converts string '56.7 to number 56.7
 ```
 
-### Parsing
+### Parsing, isNaN(), isFinite()
 
 ```js
+//parsing
 
+console.log(Number.parseInt(' 30px ')); //30
+console.log(Number.parseInt('e30px')); //NaN
+console.log(Number.parseFloat('3.40px')); //3.4
+
+console.log(Number.isNaN(20)); //false
+console.log(Number.isNaN(+'2e')); //true - it is NaN
+
+//checking value is a number
+console.log(Number.isFinite(2)); //true
+console.log(Number.isFinite('2')); //false
 ```
+

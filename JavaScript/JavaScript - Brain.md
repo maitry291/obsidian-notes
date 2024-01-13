@@ -513,7 +513,7 @@ const overalBalance2 = accounts
 console.log(overalBalance2);
 ```
 
-#### sort()
+### sort()
 mutates the original array, sorting is based on string data type i.e numbers are also sorted by converting them to strings.
 
 ```js
@@ -547,3 +547,12 @@ console.log(movements);
 
 ![[Pasted image 20240113014626.png]]
 
+## Numbers
+
+### Conversion
+
+```js
+console.log(+'t'); //NaN as Javascript behind the scenes does the type coersion which converts 't' to number as it has operator + before
+
+console.log(+'56.7'); //this works fine-converts string '56.7 to number 56.7
+```

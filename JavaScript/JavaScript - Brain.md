@@ -447,6 +447,7 @@ A closure makes sure that a function doesn't loose connection to variables that 
 
 JavaScript automatically does closure, we don't have to do anything explicitly.
 
+## Array methods
 ### ForEach method for array, map and set
 
 ### Map, filter, reduce, find

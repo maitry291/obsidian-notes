@@ -583,3 +583,9 @@ use of `_` in start and end of the numbers also not allowed
 
 ### BigInt primitive datatype
 
+### Date formatting
+
+#### Intl - Internationalisation API
+
+
+

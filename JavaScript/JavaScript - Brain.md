@@ -602,5 +602,7 @@ DOM tree is generated from an HTML document, which we can then interact with.
 
 ![[Pasted image 20240122151248.png]]
 
-DOM is a very complex API that contains lots of methods and properties to interact with the DOM tree
+DOM is a very complex API that contains lots of methods and properties to interact with the DOM tree.
+
+**The HTML DOM is a standard for how to get, change, add, or delete HTML elements.**
 

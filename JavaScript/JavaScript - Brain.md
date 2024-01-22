@@ -606,4 +606,8 @@ DOM is a very complex API that contains lots of methods and properties to intera
 
 **The HTML DOM is a standard for how to get, change, add, or delete HTML elements.**
 
-Behind the scenes, DOM creates node-object for every html element. There are already defined html elements and their properties. Inheritance is also used to 
+Behind the scenes, DOM creates node-object for every html element. There are already defined html elements and their properties. Inheritance is also used to provide many properties and methods.
+
+Any HTML element will have access to addEventListener (),
+• cloneNode ()
+or . closest () methods.

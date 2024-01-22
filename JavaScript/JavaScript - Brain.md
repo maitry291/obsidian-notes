@@ -600,5 +600,7 @@ We can write JavaScript to create, modify and delete HTML elements, set styles, 
 
 DOM tree is generated from an HTML document, which we can then interact with.
 
+![[Pasted image 20240122151248.png]]
+
 DOM is a very complex API that contains lots of methods and properties to interact with the DOM tree
 

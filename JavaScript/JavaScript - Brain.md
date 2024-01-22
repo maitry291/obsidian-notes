@@ -609,3 +609,6 @@ DOM is a very complex API that contains lots of methods and properties to intera
 Behind the scenes, DOM creates node-object for every html element. There are already defined html elements and their properties. Inheritance is also used to provide many properties and methods.
 
 Any HTML element will have access to addEventListener (), cloneNode () or closest () methods.
+
+![[Pasted image 20240122152953.png]]
+

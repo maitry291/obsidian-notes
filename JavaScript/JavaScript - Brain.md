@@ -594,5 +594,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 ## Advanced DOM
 
-Document Object model
+Document Object model is an API that allows JavaScript to interact with a web browser.
 

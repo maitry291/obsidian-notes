@@ -606,3 +606,4 @@ DOM is a very complex API that contains lots of methods and properties to intera
 
 **The HTML DOM is a standard for how to get, change, add, or delete HTML elements.**
 
+Behind the scenes, DOM creates node-

@@ -612,3 +612,8 @@ Any HTML element will have access to addEventListener (), cloneNode () or closes
 
 ![[Pasted image 20240122152953.png]]
 
+### addEventListener()
+
+When events occur in JavaScript, an object that contains information about that event gets created. This object will then be passed as an argument to the event handler function.
+
+An event can be called by different actions. Examples are clicks, mouse movements, and time intervals.

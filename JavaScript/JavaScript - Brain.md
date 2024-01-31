@@ -631,6 +631,16 @@ An event handler is any function or method specifically define to respond to a s
 
 Three Phases - capturing, the target, and the bubbling phase
 
+Event propagation is a way of defining the element order when an event occurs. If you have a <p> element inside a <div> element, and the user clicks on the <p> element, which element's "click" event should be handled first?
+
+In _bubbling_ the inner most element's event is handled first and then the outer: the <p> element's click event is handled first, then the <div> element's click event.
+
+In _capturing_ the outer most element's event is handled first and then the inner: the <div> element's click event will be handled first, then the <p> element's click event.
+
+With the addEventListener() method you can specify the propagation type by using the "useCapture" parameter:
+
+
+
 ![[Pasted image 20240131152828.png]]
 
 Event bubbling:

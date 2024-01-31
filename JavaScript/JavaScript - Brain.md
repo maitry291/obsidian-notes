@@ -641,12 +641,11 @@ Three Phases - capturing, the target, and the bubbling phase
 
 ![[Pasted image 20240131190102.png]]
 
-Event bubbling:
-- During an event handler's execution phase, any event handlers registered on ancestor elements get executed. This allows for easy capture of events at various stages of the `DOM` hierarchy.
+
 - This action can be stopped using the `stopPropagation()` method on the event object. It's useful when you aim to prevent event handlers from the ancestor elements triggered.
-Event Capturing:
-- Event capturing occurs when a nested element gets clicked. The click event of its parent elements must be triggered before the click of the nested element. This phase trickles down from the top of the `DOM` tree to the target element.  
+
 *Event capturing can't happen until the third argument of `addEventListener` is set to the `Boolean` value of true as shown below (default value is false).*
+
 - Whenever the third argument of `addEventListener` is set to `true`, event handlers are automatically triggered in the capturing phase. With this, the event handler attached to an ancestor element will be executed first when an event occurs on a nested element within the `DOM` hierarchy. This is unlike the default, where event handlers are triggered during the bubbling phase.
 
 By default, **all event handlers are registered in the bubbling phase** (from the target element to all its ancestor elements). This default configuration can be modified by adding the `event.stopPropagation` method to the target element.

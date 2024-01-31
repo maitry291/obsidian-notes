@@ -635,7 +635,8 @@ In _bubbling_ the inner most element's event is handled first and then the out
 
 In _capturing_ the outer most element's event is handled first and then the inner: the <div> element's click event will be handled first, then the <p> element's click event.
 
-With the addEventListener() method you can specify the propagation type by using the "useCapture" parameter:
+With the addEventListener() method you can specify the propagation type by using the "useCapture" parameter.
+
 Three Phases - capturing, the target, and the bubbling phase
 
 ![[Pasted image 20240131190102.png]]

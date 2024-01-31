@@ -591,7 +591,6 @@ use of `_` in start and end of the numbers also not allowed
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
 
-
 ## Advanced DOM
 
 Document Object model is an API that allows JavaScript to interact with a web browser.
@@ -614,6 +613,38 @@ Any HTML element will have access to addEventListener (), cloneNode () or closes
 
 ### addEventListener()
 
+```js
+Syntax: element.addEventListener(event, function, useCapture);
+```
+
+The third parameter is a boolean value specifying whether to use event bubbling or event capturing. This parameter is optional.
+
 When events occur in JavaScript, an object that contains information about that event gets created. This object will then be passed as an argument to the event handler function.
 
 An event can be called by different actions. Examples are clicks, mouse movements, and time intervals.
+
+An event handler is any function or method specifically define to respond to a specific event in JavaScript. It is also responsible for the execution of code when a particular event occurs.
+
+### Event flow in DOM
+
+#### Event Propagation
+
+Three Phases - capturing, the target, and the bubbling phase
+
+![[Pasted image 20240131152828.png]]
+
+Event bubbling:
+- During an event handler's execution phase, any event handlers registered on ancestor elements get executed. This allows for easy capture of events at various stages of the `DOM` hierarchy.
+- This action can be stopped using the `stopPropagation()` method on the event object. It's useful when you aim to prevent event handlers from the ancestor elements triggered.
+Event Capturing:
+- Event capturing occurs when a nested element gets clicked. The click event of its parent elements must be triggered before the click of the nested element. This phase trickles down from the top of the `DOM` tree to the target element.  
+*Event capturing can't happen until the third argument of `addEventListener` is set to the `Boolean` value of true as shown below (default value is false).*
+- Whenever the third argument of `addEventListener` is set to `true`, event handlers are automatically triggered in the capturing phase. With this, the event handler attached to an ancestor element will be executed first when an event occurs on a nested element within the `DOM` hierarchy. This is unlike the default, where event handlers are triggered during the bubbling phase.
+
+By default, **all event handlers are registered in the bubbling phase** (from the target element to all its ancestor elements). This default configuration can be modified by adding the `event.stopPropagation` method to the target element.
+
+#### Event delegation
+
+ It makes it easier to manage and handle events on multiple child elements. It takes advantage of the `DOM` (Document Object Model) *bubbling event*. This means setting event listeners on ancestor elements allows you to handle events efficiently.
+
+Unlike setting event listeners on individual elements that trigger the events. Recall that in the bubbling phase, the events on the child element rise to their parent element.

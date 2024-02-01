@@ -629,11 +629,11 @@ An event handler is any function or method specifically define to respond to a s
 
 #### Event Propagation
 
-Event propagation is a way of defining the element order when an event occurs. If you have a <p> element inside a <div> element, and the user clicks on the <p> element, which element's "click" event should be handled first?
+Event propagation is a way of defining the element order when an event occurs. If you have a  `<p>` element inside a `<div>` element, and the user clicks on the `<p>` element, which element's "click" event should be handled first?
 
-In _bubbling_ the inner most element's event is handled first and then the outer: the <p> element's click event is handled first, then the <div> element's click event.
+In _bubbling_ the inner most element's event is handled first and then the outer: the `<p>`element's click event is handled first, then the `<div>` element's click event.
 
-In _capturing_ the outer most element's event is handled first and then the inner: the <div> element's click event will be handled first, then the <p> element's click event.
+In _capturing_ the outer most element's event is handled first and then the inner: the `<div>` element's click event will be handled first, then the `<p>` element's click event.
 
 With the addEventListener() method you can specify the propagation type by using the "useCapture" parameter.
 
@@ -641,12 +641,11 @@ Three Phases - capturing, the target, and the bubbling phase
 
 ![[Pasted image 20240131190102.png]]
 
-
-- This action can be stopped using the `stopPropagation()` method on the event object. It's useful when you aim to prevent event handlers from the ancestor elements triggered.
+- bubbling can be stopped using the `stopPropagation()` method on the event object. It's useful when you aim to prevent event handlers from the ancestor elements triggered.
 
 *Event capturing can't happen until the third argument of `addEventListener` is set to the `Boolean` value of true as shown below (default value is false).*
 
-- Whenever the third argument of `addEventListener` is set to `true`, event handlers are automatically triggered in the capturing phase. With this, the event handler attached to an ancestor element will be executed first when an event occurs on a nested element within the `DOM` hierarchy. This is unlike the default, where event handlers are triggered during the bubbling phase.
+- The default value is false, which will use the bubbling propagation, when the value is set to true, the event uses the capturing propagation.
 
 By default, **all event handlers are registered in the bubbling phase** (from the target element to all its ancestor elements). This default configuration can be modified by adding the `event.stopPropagation` method to the target element.
 

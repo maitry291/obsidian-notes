@@ -666,3 +666,10 @@ Intersection Observer API can be used to observe an element. This API takes two 
 This API returns an object which has a property **observe** which can be used to observe our desired target element.
 
 `isIntersecting` parameter tells that the observing element is visible on the viewport/root or not according to the provided threshold value.
+
+### Script loading ways
+
+![[Pasted image 20240202204644.png]]
+
+![[Pasted image 20240202204949.png]]
+

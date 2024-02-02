@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -167,8 +168,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f9815398a3b261e4",
+  "active": "1c45b5fafe4e64c7",
   "lastOpenFiles": [
+    "Pasted image 20240202204949.png",
+    "Pasted image 20240202204644.png",
     "CSS/CSS - Skin.md",
     "CSS/CSS.md",
     "JavaScript/JavaScript - Brain.md",
@@ -183,7 +186,6 @@
     "JavaScript/Pasted image 20240104195021.png",
     "JavaScript/Pasted image 20240103162609.png",
     "JavaScript/Pasted image 20240103162542.png",
-    "JavaScript/Pasted image 20240103162515.png",
     "HTML/HTML - skeleton.md",
     "Git/Git.md",
     "Git",

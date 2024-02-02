@@ -654,3 +654,5 @@ By default, **all event handlers are registered in the bubbling phase** (from th
  It makes it easier to manage and handle events on multiple child elements. It takes advantage of the `DOM` (Document Object Model) *bubbling event*. This means setting event listeners on ancestor elements allows you to handle events efficiently.
 
 Unlike setting event listeners on individual elements that trigger the events. Recall that in the bubbling phase, the events on the child element rise to their parent element.
+### Intersection Observer API
+

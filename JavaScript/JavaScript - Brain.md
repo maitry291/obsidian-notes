@@ -656,3 +656,13 @@ By default, **all event handlers are registered in the bubbling phase** (from th
 Unlike setting event listeners on individual elements that trigger the events. Recall that in the bubbling phase, the events on the child element rise to their parent element.
 ### Intersection Observer API
 
+Intersection Observer API can be used to observe an element. This API takes two inputs:
+- A **Callback function:** This function receives a list of entries (elements) that are to be observed by an ancestor or document viewport. This list of entries has the property **isIntersecting** which can be used to determine if the target entry is visible or not. If this property returns true then it means the target is visible else it’s not.
+- An object with properties **root, threshold,** and **rootMargin.**
+    - **root** property is used to tell the element that is used as the viewport for checking the visibility of the target element and it must be the ancestor of the target element, and if not specified then document viewport is the default value.
+    - **threshold** property can be a number or an array of numbers. It is used to tell how much of the target element should be visible when the above callback function gets triggered. For example, if the **threshold** is 0.5, then the callback function will be triggered when half of the target element is visible in the viewport and if the **threshold** is [0.5,0.25] then when the target element’s half and one-fourth part is visible then the callback function will be triggered. The default is 0 which means as soon as the target element is visible the callback function will be triggered.
+    - **rootMargin** property is the same as the CSS’s **margin** property which can take either one value(applicable to all four margins) or multiple values for the individual margins. This property can be used to grow or shrink the container viewport. For example, if **rootMargin** is 20px the viewport will be 20px larger so once the target element is 20px from being within the viewport it will be considered intersecting. The default value is 0 for the margins.
+
+This API returns an object which has a property **observe** which can be used to observe our desired target element.
+
+`isIntersecting` parameter tells that the observing element is visible on the viewport/root or not according to the provided threshold value.

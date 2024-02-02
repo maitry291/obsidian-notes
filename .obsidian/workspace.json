@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "CSS/CSS - Skin.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "CSS/CSS - Skin.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "CSS/CSS - Skin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md"
+                "file": "CSS/CSS - Skin.md"
               }
             }
           },
@@ -168,14 +167,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1c45b5fafe4e64c7",
+  "active": "f9815398a3b261e4",
   "lastOpenFiles": [
+    "CSS/CSS.md",
+    "JavaScript/JavaScript - Brain.md",
     "Pasted image 20240131190102.png",
     "Pasted image 20240131152828.png",
     "Pasted image 20240122152953.png",
     "Pasted image 20240122151248.png",
     "Pasted image 20240113014626.png",
-    "JavaScript/JavaScript - Brain.md",
     "JavaScript/JavaScript.md",
     "Git/Git, GitHub.md",
     "CSS/CSS - Skin.md",
@@ -184,19 +184,16 @@
     "JavaScript/Pasted image 20240103162609.png",
     "JavaScript/Pasted image 20240103162542.png",
     "JavaScript/Pasted image 20240103162515.png",
-    "JavaScript/Pasted image 20240103161322.png",
     "HTML/HTML - skeleton.md",
     "Git/Git.md",
     "Git",
     "HTML/HTML.md",
     "HTML",
-    "CSS/CSS.md",
     "CSS",
     "Untitled.canvas",
     "JavaScript",
     "git_push_all.sh",
     "Dashboard.md",
-    "CSS/CSS.md",
     "CSS",
     "Untitled/Untitled 1.md",
     "CSS/Responsive CSS/Position property.md",

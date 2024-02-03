@@ -700,7 +700,21 @@ console.log(me);
 //4. function automatically return object/{}
 
 console.log(me instanceof Person); //true
+
+//prototypal inheritance
+Person.prototype.calcAge = function () {
+	console.log(2024 - this.birthYear);
+};
+me.calcAge();
+
+Person.prototype.species = 'Homo Sapiens';
+console.log(me.__proto__); //{species: 'Homo Sapiens', calcAge: ƒ, constructor: ƒ}
+console.log(me.__proto__.__proto__); //object prototype
+console.log(me.__proto__.__proto__.__proto__); //null
 ```
+
+![[Pasted image 20240203161314.png]]
+
 #### 2. ES6 classes
 
 - Modern alternative to constructor function syntax.

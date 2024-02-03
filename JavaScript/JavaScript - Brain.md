@@ -673,3 +673,5 @@ This API returns an object which has a property **observe** which can be used 
 
 ![[Pasted image 20240202204949.png]]
 
+## Object Oriented Programming
+

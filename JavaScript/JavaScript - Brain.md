@@ -675,3 +675,21 @@ This API returns an object which has a property **observe** which can be used 
 
 ## Object Oriented Programming
 
+There are no classes in JavaScript. Instead js have *Prototypes* which contains methods.
+Objects are linked to a prototype object.
+`Prototypal inheritance`: The prototype contains methods (behaviour) that are accessible to all objects linked to that prototype;
+
+### 3 ways of implementing prototypal inheritance in JS
+
+#### 1. Constructor functions
+
+- Technique to create objects from a function.
+- This is how built-in objects like Arrays, Maps or Sets are actually implemented.
+#### 2. ES6 classes
+
+- Modern alternative to constructor function syntax.
+- "Syntactic sugar": behind the scenes, ES classes work exactly like constructor functions.
+- ES6 classes do NOT behave like classes in "classical OOP" (last lecture).
+#### 3. Object.create()
+
+- The easiest and most straightforward way of linking an object to a prototype object.

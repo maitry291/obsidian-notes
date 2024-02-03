@@ -143,7 +143,7 @@ JS has 3 types of scopes - Global, Function and Block scope.
 
 ![[Pasted image 20240104195021.png]]
 
-Variables are not copied in the lower blocks. lower blocks can search for them in the upper blocks i.e. called variable look-up.
+Variables are not copied in the lower blocks. lower blocks can search for them in the upper blocks which is called variable look-up.
 
 ![[Pasted image 20240104195635.png]]
 
@@ -166,9 +166,7 @@ let age = 20;
 const birthYear = 2003;
 
 console.log(dcl()); //Output->works
-console.log(expr); //Output->undefined and reference error if const
-
-//if var then just undefined
+console.log(expr); //Output->undefined
 console.log(arrow()); //Output->undefined and reference error if const
 //if var then just undefined
 
@@ -720,6 +718,36 @@ behind the scenes classes are still functions.
 - Modern alternative to constructor function syntax.
 - "Syntactic sugar": behind the scenes, ES classes work exactly like constructor functions.
 - ES6 classes do NOT behave like classes in "classical OOP" (last lecture).
+```js
+//class expression
+const PersonCl = class {};  
+
+//1. classes are not hoisted
+//2. classes are first class citizens
+//3, classes are executed in strict mode
+
+//class declaration
+class PersonCl {
+	//works same as constructor function
+	constructor(firstName, birthYear) {
+		this.firstName = firstName;
+		this.birthYear = birthYear;
+	}
+	
+	//not part of prototype
+	species = `monkey`;
+	//methods are part of prototype
+	calcAge() {
+		console.log(2024 - this.birthYear);
+    }
+}
+
+const jeel = new PersonCl('Jeel', 2003);
+console.log(jeel);
+jeel.calcAge();
+console.log(jeel.__proto__); //{constructor: ƒ, calcAge: ƒ}
+console.log(PersonCl.prototype); //{constructor: ƒ, calcAge: ƒ}
+```
 #### 3. Object.create()
 
 - The easiest and most straightforward way of linking an object to a prototype object.

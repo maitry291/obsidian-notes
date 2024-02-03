@@ -685,6 +685,22 @@ Objects are linked to a prototype object.
 
 - Technique to create objects from a function.
 - This is how built-in objects like Arrays, Maps or Sets are actually implemented.
+```js
+const Person = function (firstName, birthYear) {
+	console.log(this); //prints the newly created empty object {}
+	this.firstName = firstName;
+	this.birthYear = birthYear;
+};
+
+const me = new Person('Maitry', 2003);
+console.log(me);
+//1. new object{} is created
+//2. function is called and this is assigned to newly created object
+//3. object{} linked to prototype
+//4. function automatically return object/{}
+
+console.log(me instanceof Person); //true
+```
 #### 2. ES6 classes
 
 - Modern alternative to constructor function syntax.

@@ -767,3 +767,22 @@ PersonCl.hey();
 #### 3. Object.create()
 
 - The easiest and most straightforward way of linking an object to a prototype object.
+```js
+//this is prototype of the object we will create
+const PersonProto = {
+	calcAge() {
+		console.log(2024 - this.birthYear);
+	},
+	
+	//this is diff from constructor function
+	init(firstName, birthYear) {
+		this.firstName = firstName;
+		this.birthYear = birthYear;
+	},
+};
+
+const jessica = Object.create(PersonProto);
+jessica.init('jessica david', 1976);
+jessica.calcAge();
+console.log(jessica.__proto__ === PersonProto); //true
+```

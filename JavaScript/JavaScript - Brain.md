@@ -737,16 +737,32 @@ class PersonCl {
 	//not part of prototype
 	species = `monkey`;
 	//methods are part of prototype
-	calcAge() {
-		console.log(2024 - this.birthYear);
+	
+    calcAge() {
+	    console.log(2024 - this.birthYear);
+    }
+
+  //   set firstName(name) {
+  //     this._firstName = name;
+  //   }
+    //static method
+    static hey() {
+	    console.log('Hellooo');
+	    console.log(this); //whole class person
     }
 }
+// jeel.firstName
+// undefined
+// jeel._firstName
+// 'Jeel'>)
 
 const jeel = new PersonCl('Jeel', 2003);
 console.log(jeel);
 jeel.calcAge();
 console.log(jeel.__proto__); //{constructor: ƒ, calcAge: ƒ}
 console.log(PersonCl.prototype); //{constructor: ƒ, calcAge: ƒ}
+PersonCl.hey();
+//jeel.hey() //not valid
 ```
 #### 3. Object.create()
 

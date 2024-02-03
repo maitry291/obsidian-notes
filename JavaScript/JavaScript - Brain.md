@@ -157,7 +157,6 @@ Variables declared with `let` and `const` are hoisted but not initialised wi
 
 ```js
 //Working of hoisting
- 
 console.log(me); //Output->undefined
 console.log(age); //Output->error not defined
 console.log(birthYear); //Output->error not defined
@@ -716,6 +715,7 @@ console.log(me.__proto__.__proto__.__proto__); //null
 ![[Pasted image 20240203161314.png]]
 
 #### 2. ES6 classes
+behind the scenes classes are still functions.
 
 - Modern alternative to constructor function syntax.
 - "Syntactic sugar": behind the scenes, ES classes work exactly like constructor functions.

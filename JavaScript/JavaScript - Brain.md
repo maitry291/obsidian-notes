@@ -792,3 +792,51 @@ console.log(jessica.__proto__ === PersonProto); //true
 
 #### 1. Using constructor function
 
+```js
+//parent
+const Car = function (make, currSpeed) {
+	this.make = make;
+	this.currSpeed = currSpeed;
+};
+
+Car.prototype.accelerate = function () {
+	this.currSpeed += 10;
+};
+
+Car.prototype.brake = function () {
+	this.currSpeed -= 5;
+};
+
+//child 
+const EVCar = function (make, currSpeed, charge) {
+	Car.call(this, make, currSpeed);
+	this.charge = charge;
+};
+
+//linking child to parent
+EVCar.prototype = Object.create(Car.prototype);
+EVCar.prototype.constructor = EVCar;
+
+EVCar.prototype.chargeBattery = function (chargeTo) {
+	this.charge = chargeTo;
+};
+
+//overriding method
+EVCar.prototype.accelerate = function () {
+	this.currSpeed += 20;
+	console.log(
+	`${this.make} going at a speed of ${this.currSpeed}kmph with a charge of ${this.charge}%`
+	);
+};
+
+const tesla = new EVCar('Tesla', 120, 23);
+console.log(tesla.__proto__); //Car {constructor: ƒ, chargeBattery: ƒ, accelerate: ƒ}
+console.log(tesla.__proto__.__proto__); //{accelerate: ƒ, brake: ƒ, constructor: ƒ}
+
+tesla.chargeBattery(50);
+tesla.accelerate();
+tesla.brake();
+```
+
+#### 2. Using ES6 classes
+

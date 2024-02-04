@@ -837,7 +837,7 @@ tesla.chargeBattery(50);
 tesla.accelerate();
 tesla.brake();
 ```
-
+![[Pasted image 20240204170840.png]]
 #### 2. Using ES6 classes
 
 ```js
@@ -883,6 +883,38 @@ const khushi=new StudentCl('Khushi',2002,'Computer Science');
 khushi.introduce();
 khushi.calcAge();
 ```
-
+![[Pasted image 20240204170658.png]]
 #### 3. Object.create()
 
+```js
+//this is prototype of the object we will create
+const PersonProto = {
+	calcAge() {
+		console.log(2024 - this.birthYear);
+	},
+	
+	//this is diff from constructor function
+	init(firstName, birthYear) {
+		this.firstName = firstName;
+		this.birthYear = birthYear;
+	},
+};
+
+const StudentProto = Object.create(PersonProto);
+
+StudentProto.init = function (firstName, birthYear, course) {
+	PersonProto.init.call(this, firstName, birthYear);
+	this.course = course;
+};
+
+StudentProto.introduce = function () {
+	console.log(`Hello, My name is ${this.firstName} and I study ${this.course}`);
+};
+
+const studentJay = Object.create(StudentProto);
+studentJay.init('Jay', 2005, 'Computer Science');
+console.log(studentJay);
+studentJay.introduce();
+```
+
+![[Pasted image 20240204170251.png]]

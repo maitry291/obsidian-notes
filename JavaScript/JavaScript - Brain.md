@@ -713,7 +713,7 @@ console.log(me.__proto__.__proto__.__proto__); //null
 ```
 
 ![[Pasted image 20240203161314.png]]
-`.prototype is property of class and __proto__ is property of an instance of that class`
+`.prototype is property of constructor function and __proto__ is property of an object instance`
 #### 2. ES6 classes
 `Behind the scenes classes are still functions there is no concept of class in JS.`
 - Modern alternative to constructor function syntax.

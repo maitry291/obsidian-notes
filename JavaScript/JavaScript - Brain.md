@@ -840,3 +840,49 @@ tesla.brake();
 
 #### 2. Using ES6 classes
 
+```js
+class PersonCl {
+	//works same as constructor function
+	constructor(firstName, birthYear) {
+		this.firstName = firstName;
+		this.birthYear = birthYear;
+	}
+	//not part of prototype
+	species = `monkey`;
+	
+	//methods are part of prototype
+	//instance method
+	calcAge() {
+		console.log(2024 - this.birthYear);
+	}
+	
+	//static method
+	static hey() {
+		console.log('Hellooo');
+		console.log(this); //whole class person
+	}
+}
+
+//if we have same arguments as parent class then there is no need of consturctor function and super call..without that also it'll work same.
+
+class StudentCl extends PersonCl {
+	constructor(firstName, birthYear, course) {
+		//Always needs to happen first
+		super(firstName, birthYear);
+		this.course = course;
+	}
+	
+	introduce() {
+		console.log(
+		`Hello, My name is ${this.firstName} and I study ${this.course}`
+		);
+	}
+}
+
+const khushi=new StudentCl('Khushi',2002,'Computer Science');
+khushi.introduce();
+khushi.calcAge();
+```
+
+#### 3. Object.create()
+

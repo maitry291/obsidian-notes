@@ -357,7 +357,7 @@ slice() method, split(), join(), pasStart(), padEnd(), replace(), repeat()
 
 JavaScript does not pass by reference.
 
-### First class and higher order functions
+### First class and Higher order functions
 
 A programming language is said to have First-class functions **if functions in that language are treated like other variables**. So the functions can be assigned to any other variable or passed as an argument or can be returned by another function. JavaScript treats function as a first-class citizen.
 

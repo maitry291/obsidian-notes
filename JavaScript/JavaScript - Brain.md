@@ -386,6 +386,8 @@ Syntax:
 apply(objectInstance)
 apply(objectInstance, argsArray)
 ```
+
+The Difference Between call() and apply()The difference is: **The call() method takes arguments separately.** The apply() method takes arguments as an array. The apply() method is very handy if you want to use an array instead of an argument list.
 #### Bind() Method
 
 The bind() method creates a new function and when that new function is called it set **this** keyword to the first argument which is passed to the bind method, and if any other sequences of arguments preceding the first argument are passed to the bind method then they are passed as an argument to the new function when the new function is called.
@@ -711,10 +713,9 @@ console.log(me.__proto__.__proto__.__proto__); //null
 ```
 
 ![[Pasted image 20240203161314.png]]
-
+`.prototype is property of class and __proto__ is property of an instance of that class`
 #### 2. ES6 classes
-behind the scenes classes are still functions.
-
+`Behind the scenes classes are still functions there is no concept of class in JS.`
 - Modern alternative to constructor function syntax.
 - "Syntactic sugar": behind the scenes, ES classes work exactly like constructor functions.
 - ES6 classes do NOT behave like classes in "classical OOP" (last lecture).
@@ -786,3 +787,8 @@ jessica.init('jessica david', 1976);
 jessica.calcAge();
 console.log(jessica.__proto__ === PersonProto); //true
 ```
+
+### Inheritance between classes
+
+#### 1. Using constructor function
+

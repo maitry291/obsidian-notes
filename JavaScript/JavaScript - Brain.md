@@ -918,4 +918,7 @@ studentJay.introduce();
 ```
 
 ![[Pasted image 20240204170251.png]]
+### Encapsulation in JS
+
+Developers have convention like putting underscore(_ ) in the start of the property same that'll tell other developers that this property is protected and they shouldn't use them outside of the class.
 

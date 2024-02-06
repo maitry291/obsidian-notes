@@ -926,55 +926,46 @@ Developers have convention like putting underscore(_ ) in the start of the prope
 //Encapsulation
 
 class Account {
-//Public fields(of instance no in prototype)
-locale = navigator.language;
-
-//private fields(of instance no in prototype)
-#movements = [];
-//we can't declare private property in constructor so we need to do it here
-#pin;
-
-constructor(owner, currency, pin) {
-this.owner = owner;
-this.currency = currency;
-//convention to tell property is protected
-this.#pin = pin;
+	//Public fields(of instance no in prototype)
+	locale = navigator.language;
+	
+	//private fields(of instance no in prototype)
+	#movements = [];
+	//we can't declare private property in constructor so we need to do it here
+	#pin;
+	
+	constructor(owner, currency, pin) {
+		this.owner = owner;
+		this.currency = currency;
+		//convention to tell property is protected
+		this.#pin = pin;
+	}
+	
+	//public methods
+	deposit(val) {
+		this.#movements.push(val);
+	}
+	
+	getMovements() {
+		return this.#movements;
+	}
+	
+	//private methods
+	#approveLoan(){
+		return true;
+	}
 }
-
-//public methods
-deposit(val) {
-
-this.#movements.push(val);
-
-}
-
-getMovements() {
-
-return this.#movements;
-
-}
-
-  
-
-//private methods
-
-#approveLoan(){
-
-return true;
-
-}
-
-}
-
-  
 
 const maitry = new Account('Maitry', 'INR', 1111);
-
 maitry.deposit(3000);
-
 maitry.deposit(67000);
-
 console.log(maitry.getMovements());
-
 console.log(maitry);
 ```
+![[Pasted image 20240204180657.png]]
+
+#### Chaining methods
+
+return this from methods will enable chaining 
+
+![[Pasted image 20240204181433.png]]

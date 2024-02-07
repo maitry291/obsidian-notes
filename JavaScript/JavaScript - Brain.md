@@ -968,4 +968,21 @@ console.log(maitry);
 
 return this from methods will enable chaining 
 
+### Summary
+
 ![[Pasted image 20240204181433.png]]
+
+
+## Geolocation API
+
+https://www.w3schools.com/html/html5_geolocation.asp
+
+- Check if Geolocation is supported
+- If supported, run the getCurrentPosition() method. If not, display a message to the user
+- If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (showPosition)
+- The showPosition() function outputs the Latitude and Longitude
+## Local/Web storage API
+
+With web storage, web applications can store data locally within the user's browser.
+
+https://www.w3schools.com/html/html5_webstorage.asp

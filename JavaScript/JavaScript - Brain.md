@@ -986,3 +986,15 @@ https://www.w3schools.com/html/html5_geolocation.asp
 With web storage, web applications can store data locally within the user's browser.
 
 https://www.w3schools.com/html/html5_webstorage.asp
+
+## Asynchronous JS
+
+Tasks can be classified into **synchronous** and **asynchronous** types.
+
+**Synchronous** tasks are the ones that **execute sequentially**, one after the other, and while they're being executed nothing else is being done.
+
+**Asynchronous** tasks, on the other hand, are the ones that, while they execute, they don't block the execution thread.
+
+JavaScript is a **single threaded** language. "Single threaded" means it has a single thread of execution. This means that JavaScript programs can only execute a single task at a time.
+
+Browsers use something called the **call stack** to read and execute each task contained in a Javascript program. The way it works is quite simple. When a task is to be executed, it's added to the call stack. When it's finished, it's removed from the call stack. This same action is repeated for each and every task until the program is fully executed.

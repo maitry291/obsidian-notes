@@ -998,3 +998,30 @@ Tasks can be classified into **synchronous** and **asynchronous** types.
 JavaScript is a **single threaded** language. "Single threaded" means it has a single thread of execution. This means that JavaScript programs can only execute a single task at a time.
 
 Browsers use something called the **call stack** to read and execute each task contained in a Javascript program. The way it works is quite simple. When a task is to be executed, it's added to the call stack. When it's finished, it's removed from the call stack. This same action is repeated for each and every task until the program is fully executed.
+
+### Web APIs?
+
+- Web APIs are a set of features and functionalities that the browser uses to enable JavaScript to execute. These features include DOM manipulation, AJAX calls, and `setTimeout` among other things.
+- To simplify the understanding of this, think about it like a different "execution place" rather than the call stack. When the call stack detects that the task it's processing is web API-related, it asks the web API "Hey API, I need to get this done", and the web API takes care of it, allowing the call stack to continue with the next task in the stack.
+
+The **callback queue** is a queue that stores the tasks that the web APIs return. Once the web API finishes executing the given task (which in this case was processing the `setTimeout`) it sends the callback to the callback queue(FIFO).
+
+The **event loop** is a loop (woah... really?) that constantly checks two things:
+1. If the call stack is empty
+2. If there's any task present in the callback queue
+If both of these conditions are met, then the task present in the callback queue is sent to the call stack to complete its execution.
+
+Example:
+
+```javascript
+console.log('task1')
+
+setTimeout(() => console.log('task2'), 0)
+
+console.log('task3')
+```
+
+![[Pasted image 20240212134356.png]]
+
+![[Pasted image 20240212134520.png]]
+

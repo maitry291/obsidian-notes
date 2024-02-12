@@ -1040,3 +1040,5 @@ And once the event loop detected that the *call stack was empty* and that there 
 
 There are mainly three ways in which we can code asynchronism in JavaScript: **callback functions, promises, and async-await**.
 
+
+

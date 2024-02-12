@@ -999,7 +999,7 @@ JavaScript is a **single threaded** language. "Single threaded" means it has a
 
 Browsers use something called the **call stack** to read and execute each task contained in a Javascript program. The way it works is quite simple. When a task is to be executed, it's added to the call stack. When it's finished, it's removed from the call stack. This same action is repeated for each and every task until the program is fully executed.
 
-### Web APIs?
+### Web APIs
 
 - Web APIs are a set of features and functionalities that the browser uses to enable JavaScript to execute. These features include DOM manipulation, AJAX calls, and `setTimeout` among other things.
 - To simplify the understanding of this, think about it like a different "execution place" rather than the call stack. When the call stack detects that the task it's processing is web API-related, it asks the web API "Hey API, I need to get this done", and the web API takes care of it, allowing the call stack to continue with the next task in the stack.
@@ -1024,4 +1024,18 @@ console.log('task3')
 ![[Pasted image 20240212134356.png]]
 
 ![[Pasted image 20240212134520.png]]
+
+Following the red lines, we can see that when the call stack identified that the task involved `setTimeout`, it sent it to the web APIs to process it.
+
+Once the web APIs processed the task, it inserted the callback into the callback queue.
+
+And once the event loop detected that the *call stack was empty* and that there was a callback present in the callback queue, it inserted the callback in the call stack to complete its execution.
+
+>This is how JavaScript makes asynchronism possible. Asynchronous tasks are processed by web APIs instead of the call stack, which handles only synchronous tasks.
+>
+>It's important to remember that JavaScript always runs only one task at a time. The "magic" of asynchronism is made possible by the existence of the web APIs, the callback queue, and the event loop, which are responsible for managing asynchronous tasks.
+
+### Implementation
+
+There are mainly three ways in which we can code asynchronism in JavaScript: **callback functions, promises, and async-await**.
 

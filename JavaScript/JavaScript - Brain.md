@@ -1035,11 +1035,14 @@ And once the event loop detected that the *call stack was empty* and that there 
 >
 >It's important to remember that JavaScript always runs only one task at a time. The "magic" of asynchronism is made possible by the existence of the web APIs, the callback queue, and the event loop, which are responsible for managing asynchronous tasks.
 
+### What happens when we access a web server
+
 ![[Pasted image 20240212161128.png]]
+### JS Runtime
+
+![[Pasted image 20240213155547.png]]
 ### Implementation
 
 There are mainly three ways in which we can code asynchronism in JavaScript: **callback functions, promises, and async-await**.
-
-
 
 

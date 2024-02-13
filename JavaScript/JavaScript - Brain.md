@@ -1041,6 +1041,8 @@ And once the event loop detected that the *call stack was empty* and that there 
 ### JS Runtime
 
 ![[Pasted image 20240213155547.png]]
+
+>Promises task are moved into a special queue called microtasks queue which has priority over the callback queue
 ### Implementation
 
 There are mainly three ways in which we can code asynchronism in JavaScript: **callback functions, promises, and async-await**.

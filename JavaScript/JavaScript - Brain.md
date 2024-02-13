@@ -1043,6 +1043,22 @@ And once the event loop detected that the *call stack was empty* and that there 
 ![[Pasted image 20240213155547.png]]
 
 >Promises task are moved into a special queue called microtasks queue which has priority over the callback queue
+
+```js
+console.log(`test start`);
+
+setTimeout(() => console.log(`timer`), 0); //callback queue
+
+Promise.resolve(`resolved promise 1`).then(res => console.log(res)); //microtasks queue which has priority over callback queue
+
+Promise.resolve(`resolved promise 2`).then(res => {
+	for(let i=0;i<1000;i++){}
+	console.log(res);
+}); //microtask queue
+
+console.log(`test end`);
+```
+![[Pasted image 20240213163303.png]]
 ### Implementation
 
 There are mainly three ways in which we can code asynchronism in JavaScript: **callback functions, promises, and async-await**.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "CSS/CSS - Skin.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "CSS/CSS - Skin.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "CSS/CSS - Skin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md"
+                "file": "CSS/CSS - Skin.md"
               }
             }
           },
@@ -170,6 +169,8 @@
   },
   "active": "1c45b5fafe4e64c7",
   "lastOpenFiles": [
+    "CSS/Pasted image 20231214202324.png",
+    "JavaScript/JavaScript - Brain.md",
     "Pasted image 20240213163303.png",
     "Pasted image 20240213155547.png",
     "Pasted image 20240212161128.png",
@@ -180,10 +181,8 @@
     "Pasted image 20240204180657.png",
     "Pasted image 20240204170840.png",
     "Pasted image 20240204170658.png",
-    "Pasted image 20240204170251.png",
     "CSS/CSS - Skin.md",
     "CSS/CSS.md",
-    "JavaScript/JavaScript - Brain.md",
     "JavaScript/JavaScript.md",
     "Git/Git, GitHub.md",
     "HTML/HTML - skeleton.md",

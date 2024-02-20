@@ -1063,8 +1063,22 @@ console.log(`test end`);
 
 There are mainly three ways in which we can code asynchronism in JavaScript: **callback functions, promises, and async-await**.
 
+#### Promises
+
+A promise is a special kind of object in JavaScript that has 3 possible states:
+- **Pending:** It's the initial state, and it signifies that the corresponding task is yet to be resolved.
+- **Fulfilled:** Means the task has been completed successfully.
+- **Rejected:** Means the task has produced some kind of error.
+
+The `then` method waits for the promise to complete, and then provides us with the result, which is present as a parameter for the method.
+
+What the `catch` method does is execute whenever a promise is rejected. Normally `catch` is used to handle an error, like showing a certain message to the user when an API fails to respond.
 
 #### Async-await
+
+Async-await is the latest way of dealing with asynchronism provided by JavaScript. Basically, it's just syntactic sugar that allow us to deal with promises in a more concise way than using `.then` methods.
+
+When we deal with the promises we can use of await before it if the work done by promise needs to be completed before below code. Async await code must be written in try and catch block because with async-await we won't use the `.catch` method. But we still need to process possible errors. 
 
 Promise.all() method to run promises in parallel. if any of the promises passed to all() method rejects then it won't execute other promises further.
 
@@ -1121,4 +1135,9 @@ Promise.race([
 ```
 
 Promise.allSettled() will return an array of all settled promises.
-Promise.any() returns first fulfilled promise
+Promise.any() returns first fulfilled promise.
+
+### Modern JS
+
+![[Pasted image 20240220213607.png]]
+

@@ -1063,6 +1063,6 @@ console.log(`test end`);
 
 There are mainly three ways in which we can code asynchronism in JavaScript: **callback functions, promises, and async-await**.
 
-
+Promise.all() method to run promises in parallel 
 
 

@@ -1066,7 +1066,7 @@ There are mainly three ways in which we can code asynchronism in JavaScript: **c
 
 #### Async-await
 
-Promise.all() method to run promises in parallel. if ay of the promise passed to all() method rejects then it won't execute other promises further.
+Promise.all() method to run promises in parallel. if any of the promises passed to all() method rejects then it won't execute other promises further.
 
 ```js
 // Running Promises in Parallel
@@ -1111,10 +1111,14 @@ const timeout = function (sec) {
 	});
 };
 
+//if getjson takes more than 5 sec then timeout wins the race
 Promise.race([
-getJSON(`https://restcountries.eu/rest/v2/name/tanzania`),
-timeout(5),
+	getJSON(`https://restcountries.eu/rest/v2/name/tanzania`),
+	timeout(5),
 ])
 .then(res => console.log(res[0]))
 .catch(err => console.error(err));
 ```
+
+Promise.allSettled() will return an array of all settled promises.
+Promise.any() returns first fulfilled promise

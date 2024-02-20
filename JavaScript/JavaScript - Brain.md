@@ -1038,7 +1038,7 @@ And once the event loop detected that the *call stack was empty* and that there 
 ### What happens when we access a web server
 
 ![[Pasted image 20240212161128.png]]
-### JS Runtime
+### JS Runtime - Asynchronous behind the scenes
 
 ![[Pasted image 20240213155547.png]]
 

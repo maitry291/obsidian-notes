@@ -1,4 +1,4 @@
-
+****
 JavaScript makes web pages doing nothing to user interactive.
 
 Browser APIs - DOM, Canvas, Geolocation, etc

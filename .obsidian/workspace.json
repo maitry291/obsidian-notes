@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/CSS - Skin.md",
+                "file": "JavaScript/JavaScript - Brain.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/CSS - Skin.md",
+                "file": "JavaScript/JavaScript - Brain.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/CSS - Skin.md",
+                "file": "JavaScript/JavaScript - Brain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/CSS - Skin.md"
+                "file": "JavaScript/JavaScript - Brain.md"
               }
             }
           },
@@ -169,6 +170,9 @@
   },
   "active": "1c45b5fafe4e64c7",
   "lastOpenFiles": [
+    "JavaScript/JavaScript.md",
+    "Dashboard.md",
+    "CSS/CSS - Skin.md",
     "CSS/Pasted image 20231214202324.png",
     "JavaScript/JavaScript - Brain.md",
     "Pasted image 20240213163303.png",
@@ -180,10 +184,7 @@
     "Pasted image 20240204181433.png",
     "Pasted image 20240204180657.png",
     "Pasted image 20240204170840.png",
-    "Pasted image 20240204170658.png",
-    "CSS/CSS - Skin.md",
     "CSS/CSS.md",
-    "JavaScript/JavaScript.md",
     "Git/Git, GitHub.md",
     "HTML/HTML - skeleton.md",
     "Git/Git.md",
@@ -194,7 +195,6 @@
     "Untitled.canvas",
     "JavaScript",
     "git_push_all.sh",
-    "Dashboard.md",
     "CSS",
     "Untitled/Untitled 1.md",
     "CSS/Responsive CSS/Position property.md",

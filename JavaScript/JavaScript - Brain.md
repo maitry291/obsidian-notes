@@ -1141,3 +1141,69 @@ Promise.any() returns first fulfilled promise.
 
 ![[Pasted image 20240220213607.png]]
 
+JavaScript modules allow you to break up your code into separate files.
+This makes it easier to maintain a code-base.
+Modules are imported from external files with the `import` statement.
+Modules also rely on `type="module"` in the `<script>` tag.
+
+#### Exports
+There are two types of exports: **Named Exports** and **Default Exports**.
+##### Named Exports
+
+Let us create a file named `person.js`, and fill it with the things we want to export. You can create named exports two ways. In-line individually, or all at once at the bottom.
+
+`person.js`
+
+```js
+const name = `Maitry`;
+const age = 20;
+console.log(`person file`);
+
+//All at once at bottom
+export { name, age };  
+
+//OR - In-line individually
+// export const name = `Maitry`;
+// export const age = 20;
+```
+
+##### Default Exports
+
+Let us create another file, named `message.js`, and use it for demonstrating default export.
+
+*You can only have one default export in a file.*
+
+`message.js`
+
+```js
+const message = () => {  
+	const name = "Jesse";  
+	const age = 40;  
+	return name + ' is ' + age + 'years old.';  
+};  
+  
+export default message;
+```
+
+
+#### Import
+
+You can import modules into a file in two ways, based on if they are named exports or default exports.
+
+Named exports are constructed using curly braces. Default exports are not.
+
+##### Import from named exports
+
+```js
+Import named exports from the file person.js:
+
+import { name, age } from "./person.js";
+```
+
+##### Import from default exports
+
+```js
+Import a default export from the file message.js:
+
+import message from "./message.js";
+```

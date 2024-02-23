@@ -1147,6 +1147,7 @@ Modules are imported from external files with the `import` statement.
 Modules also rely on `type="module"` in the `<script>` tag.
 
 #### Exports
+
 There are two types of exports: **Named Exports** and **Default Exports**.
 ##### Named Exports
 
@@ -1185,12 +1186,13 @@ const message = () => {
 export default message;
 ```
 
-
 #### Import
 
 You can import modules into a file in two ways, based on if they are named exports or default exports.
 
 Named exports are constructed using curly braces. Default exports are not.
+
+Imports are not copies of the exports. They are the same object as in export file. like a live connection i.e. they point to the same object in the memory.
 
 ##### Import from named exports
 
@@ -1207,3 +1209,8 @@ Import a default export from the file message.js:
 
 import message from "./message.js";
 ```
+
+#### Top level await - ES2022
+
+From ES2022 onwards we can use await outside of the async function in module type. 
+

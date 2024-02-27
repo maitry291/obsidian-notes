@@ -1214,3 +1214,5 @@ import message from "./message.js";
 
 From ES2022 onwards we can use await outside of the async function in module type. 
 
+#### Parcel, npx, npm , babel
+

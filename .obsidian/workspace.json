@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8d93e2adf870a187",
+        "id": "86897d878950becf",
         "type": "tabs",
         "children": [
           {
-            "id": "1c45b5fafe4e64c7",
+            "id": "4d78ada7a684aa2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "Node JS/Node JS.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "b93783218268e259",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:MOCs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "Node JS/Node JS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "Node JS/Node JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md"
+                "file": "Node JS/Node JS.md"
               }
             }
           },
@@ -179,23 +167,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b93783218268e259",
+  "active": "4d78ada7a684aa2e",
   "lastOpenFiles": [
-    "Pasted image 20240220213607.png",
     "JavaScript/JavaScript.md",
-    "Dashboard.md",
-    "CSS/CSS - Skin.md",
-    "CSS/Pasted image 20231214202324.png",
     "JavaScript/JavaScript - Brain.md",
+    "Node JS/Node JS.md",
+    "Dashboard.md",
     "Pasted image 20240213163303.png",
     "Pasted image 20240213155547.png",
-    "Pasted image 20240212161128.png",
-    "Pasted image 20240212134520.png",
-    "Pasted image 20240212134434.png",
-    "Pasted image 20240212134356.png",
-    "Pasted image 20240204181433.png",
-    "Pasted image 20240204180657.png",
-    "Pasted image 20240204170840.png",
+    "Pasted image 20240113014626.png",
+    "JavaScript/Pasted image 20240220213607.png",
+    "JavaScript/Pasted image 20240213163303.png",
+    "JavaScript/Pasted image 20240213155547.png",
+    "JavaScript/Pasted image 20240212161128.png",
+    "JavaScript/Pasted image 20240212134520.png",
+    "JavaScript/Pasted image 20240212134434.png",
+    "JavaScript/Pasted image 20240212134356.png",
+    "Untitled.md",
+    "Node JS",
+    "CSS/CSS - Skin.md",
     "CSS/CSS.md",
     "Git/Git, GitHub.md",
     "HTML/HTML - skeleton.md",
@@ -222,10 +212,8 @@
     "HTML/Client side validations.md",
     "HTML/Forms in HTML.md",
     "HTML/div and span.md",
-    "HTML/The Poem Problem.md",
     "Android",
     "Learning/CSS/Untitled",
-    "Projects",
-    "Blogs"
+    "Projects"
   ]
 }

@@ -1,6 +1,5 @@
 ---
-tags:
-  - MOCs
+tags: []
 ---
 ```folder-index-content
 ```

@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "baef31bda2664166",
+        "id": "c2b59386d3737eca",
         "type": "tabs",
         "children": [
           {
-            "id": "e8c1dd556250968d",
+            "id": "ad5fa346da507dea",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "JavaScript/JavaScript - Brain.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -83,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JavaScript/JavaScript - Brain.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -99,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JavaScript/JavaScript - Brain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JavaScript/JavaScript - Brain.md"
+              }
             }
           },
           {
@@ -161,11 +168,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e8c1dd556250968d",
+  "active": "f9815398a3b261e4",
   "lastOpenFiles": [
-    "HTML/HTML.md",
     "JavaScript/JavaScript.md",
     "JavaScript/JavaScript - Brain.md",
+    "HTML/HTML.md",
     "HTML/HTML - skeleton.md",
     "Node JS/Node JS.md",
     "Dashboard.md",

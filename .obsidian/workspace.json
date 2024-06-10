@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fe91e2e1ab4b234f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +168,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fe91e2e1ab4b234f",
+  "active": "a5f450232114871d",
   "lastOpenFiles": [
     "JavaScript/JavaScript.md",
     "JavaScript/JavaScript - Brain.md",

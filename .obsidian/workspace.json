@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "CSS/CSS - Skin.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "CSS/CSS - Skin.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "CSS/CSS - Skin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md"
+                "file": "CSS/CSS - Skin.md"
               }
             }
           },
@@ -168,10 +167,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a5f450232114871d",
+  "active": "ad5fa346da507dea",
   "lastOpenFiles": [
-    "JavaScript/JavaScript.md",
+    "CSS/CSS.md",
     "JavaScript/JavaScript - Brain.md",
+    "JavaScript/JavaScript.md",
     "HTML/HTML.md",
     "HTML/HTML - skeleton.md",
     "Node JS/Node JS.md",
@@ -189,7 +189,6 @@
     "Untitled.md",
     "Node JS",
     "CSS/CSS - Skin.md",
-    "CSS/CSS.md",
     "Git/Git, GitHub.md",
     "Git/Git.md",
     "Git",

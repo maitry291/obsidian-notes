@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Js/React Js.md",
-                "mode": "preview",
+                "file": "Git/Git, GitHub.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Js/React Js.md",
+                "file": "Git/Git, GitHub.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Js/React Js.md",
+                "file": "Git/Git, GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Js/React Js.md"
+                "file": "Git/Git, GitHub.md"
               }
             }
           },
@@ -169,15 +169,16 @@
   },
   "active": "ad5fa346da507dea",
   "lastOpenFiles": [
+    "Git/Git.md",
+    "React Js/Reac.md",
+    "React Js/React.md",
     "Node JS/Node JS.md",
-    "React Js/React Js.md",
     "React Js",
     "Untitled.md",
     "Dashboard.md",
     "CSS/CSS.md",
     "CSS/CSS - Skin.md",
     "2024-08-19.md",
-    "Git/Git.md",
     "Git/Git, GitHub.md",
     "JavaScript/JavaScript - Brain.md",
     "JavaScript/JavaScript.md",
@@ -213,7 +214,6 @@
     "JavaScript/The bind Method.md",
     "JavaScript/The call and apply Methods.md",
     "HTML/Client side validations.md",
-    "HTML/Forms in HTML.md",
     "Android",
     "Learning/CSS/Untitled"
   ]

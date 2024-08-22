@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git, GitHub.md",
-                "mode": "source",
+                "file": "CSS/CSS.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git, GitHub.md",
+                "file": "CSS/CSS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git, GitHub.md",
+                "file": "CSS/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git, GitHub.md"
+                "file": "CSS/CSS.md"
               }
             }
           },
@@ -169,6 +169,13 @@
   },
   "active": "ad5fa346da507dea",
   "lastOpenFiles": [
+    "HTML/HTML - skeleton.md",
+    "React Js/React Js.md",
+    "CSS/CSS.md",
+    "CSS/CSS - Skin.md",
+    "Attachments/Attachments.md",
+    "Attachments",
+    "Git/Git, GitHub.md",
     "Git/Git.md",
     "React Js/Reac.md",
     "React Js/React.md",
@@ -176,14 +183,10 @@
     "React Js",
     "Untitled.md",
     "Dashboard.md",
-    "CSS/CSS.md",
-    "CSS/CSS - Skin.md",
     "2024-08-19.md",
-    "Git/Git, GitHub.md",
     "JavaScript/JavaScript - Brain.md",
     "JavaScript/JavaScript.md",
     "HTML/HTML.md",
-    "HTML/HTML - skeleton.md",
     "Pasted image 20240213163303.png",
     "Pasted image 20240213155547.png",
     "Pasted image 20240113014626.png",
@@ -212,9 +215,6 @@
     "JavaScript/Node JS.md",
     "CSS/Selectors.md",
     "JavaScript/The bind Method.md",
-    "JavaScript/The call and apply Methods.md",
-    "HTML/Client side validations.md",
-    "Android",
-    "Learning/CSS/Untitled"
+    "Android"
   ]
 }

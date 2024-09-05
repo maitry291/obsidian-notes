@@ -1,0 +1,1 @@
+In the react structure, the html file doesn't have any script tag because the react js code first gets transformed via some build tools as unprocessed react code has JSX which is not a default JS feature.

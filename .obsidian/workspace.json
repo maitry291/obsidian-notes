@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Js/uihiu.md",
+                "file": "React Js/JS refresher.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Js/uihiu.md",
+                "file": "React Js/JS refresher.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Js/uihiu.md",
+                "file": "React Js/JS refresher.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Js/uihiu.md"
+                "file": "React Js/JS refresher.md"
               }
             }
           },
@@ -149,8 +149,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,10 +166,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f9815398a3b261e4",
+  "active": "ad5fa346da507dea",
   "lastOpenFiles": [
     "CSS/CSS.md",
-    "React Js/uihiu.md",
+    "React Js/JS refresher.md",
     "React Js/React Js.md",
     "HTML/HTML - skeleton.md",
     "CSS/CSS - Skin.md",

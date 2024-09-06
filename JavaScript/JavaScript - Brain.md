@@ -209,28 +209,28 @@ The TDZ starts at the beginning of the variable's enclosing scope and ends when 
 console.log(this); //Output->window object in browser
 
 const foo = function (a, b) {
-console.log(this); //output->undefined
-return a + b;
+	console.log(this); //output->undefined
+	return a + b;
 };
 
 //arrow functions do not have this keyword
 const arrow = (a, b) => {
-console.log(this); //output->window obj i.e this of parent's scope
-return a + b;
+	console.log(this); //output->window obj i.e this of parent's scope
+	return a + b;
 };
 
 const jonas = {
-year: 1991,
-calcAge: function () {
-console.log(this);  
-console.log(2037 - this.year);
-},
+	year: 1991,
+	calcAge: function () {
+		console.log(this);  
+		console.log(2037 - this.year);
+	},
 };
 
 jonas.calcAge(); //output-> jonas object
 
 const matilda = {
-year: 2017,
+	year: 2017,
 };
 
 matilda.calcAge = jonas.calcAge;

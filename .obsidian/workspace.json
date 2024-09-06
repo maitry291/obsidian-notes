@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Js/JS refresher.md",
-                "mode": "source",
+                "file": "JavaScript/JavaScript - Brain.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Js/JS refresher.md",
+                "file": "JavaScript/JavaScript - Brain.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Js/JS refresher.md",
+                "file": "JavaScript/JavaScript - Brain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Js/JS refresher.md"
+                "file": "JavaScript/JavaScript - Brain.md"
               }
             }
           },
@@ -149,7 +149,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -168,8 +169,8 @@
   },
   "active": "ad5fa346da507dea",
   "lastOpenFiles": [
-    "CSS/CSS.md",
     "React Js/JS refresher.md",
+    "CSS/CSS.md",
     "React Js/React Js.md",
     "HTML/HTML - skeleton.md",
     "CSS/CSS - Skin.md",

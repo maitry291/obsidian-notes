@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
-                "mode": "preview",
+                "file": "React Js/React Essentials.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "React Js/React Essentials.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "React Js/React Essentials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md"
+                "file": "React Js/React Essentials.md"
               }
             }
           },
@@ -170,6 +170,8 @@
   "active": "ad5fa346da507dea",
   "lastOpenFiles": [
     "React Js/JS refresher.md",
+    "React Js/React Essentials.md",
+    "JavaScript/JavaScript - Brain.md",
     "CSS/CSS.md",
     "React Js/React Js.md",
     "HTML/HTML - skeleton.md",
@@ -185,7 +187,6 @@
     "Untitled.md",
     "Dashboard.md",
     "2024-08-19.md",
-    "JavaScript/JavaScript - Brain.md",
     "JavaScript/JavaScript.md",
     "HTML/HTML.md",
     "Pasted image 20240213163303.png",
@@ -214,7 +215,6 @@
     "CSS/Overflow.md",
     "CSS/box-sizing.md",
     "JavaScript/Node JS.md",
-    "CSS/Selectors.md",
     "Android"
   ]
 }

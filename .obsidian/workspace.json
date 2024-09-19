@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Js/React Essentials.md",
+                "file": "React Js/JS refresher.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Js/React Essentials.md",
+                "file": "React Js/JS refresher.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Js/React Essentials.md",
+                "file": "React Js/JS refresher.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Js/React Essentials.md"
+                "file": "React Js/JS refresher.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "ad5fa346da507dea",
   "lastOpenFiles": [
-    "React Js/JS refresher.md",
     "React Js/React Essentials.md",
+    "React Js/JS refresher.md",
     "JavaScript/JavaScript - Brain.md",
     "CSS/CSS.md",
     "React Js/React Js.md",

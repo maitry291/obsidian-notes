@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c2b59386d3737eca",
+        "id": "8c8fd33e21baac4c",
         "type": "tabs",
         "children": [
           {
-            "id": "ad5fa346da507dea",
+            "id": "a90c61e7064dfaad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Git/Git, GitHub.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -167,8 +167,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad5fa346da507dea",
+  "active": "a90c61e7064dfaad",
   "lastOpenFiles": [
+    "Git/Git, GitHub.md",
     "React Js/JS refresher.md",
     "React Js/React Essentials.md",
     "JavaScript/JavaScript - Brain.md",
@@ -178,7 +179,6 @@
     "CSS/CSS - Skin.md",
     "Attachments/Attachments.md",
     "Attachments",
-    "Git/Git, GitHub.md",
     "Git/Git.md",
     "React Js/Reac.md",
     "React Js/React.md",

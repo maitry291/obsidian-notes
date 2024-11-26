@@ -11,6 +11,8 @@ A file can only contain one default and an unlimited amount of named exports. Yo
 When importing **named exports**, you can also import all named exports at once with the following syntax:
 
 `import * as upToYou from './path/to/file.js';`
+
+`upToYou`  is - well - up to you and simply bundles all exported variables/functions in one JavaScript object. For example, if you `export const someData = ...`  (`/path/to/file.js` ) you can access it on `upToYou`  like this: `upToYou.someData`
 ### Arrow function
 
  number => { age: number }; // trying to return an object

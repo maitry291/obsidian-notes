@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "React Js/JS refresher.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -154,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293,
-    "collapsed": true
+    "width": 293
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,11 +169,11 @@
   },
   "active": "a90c61e7064dfaad",
   "lastOpenFiles": [
-    "HTML/HTML - skeleton.md",
+    "JavaScript/JavaScript - Brain.md",
     "React Js/JS refresher.md",
+    "HTML/HTML - skeleton.md",
     "React Js/React Essentials.md",
     "Git/Git, GitHub.md",
-    "JavaScript/JavaScript - Brain.md",
     "CSS/CSS.md",
     "React Js/React Js.md",
     "CSS/CSS - Skin.md",

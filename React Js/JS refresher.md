@@ -6,6 +6,11 @@ In the react structure, the html file doesn't have any script tag because the re
 
 By using **import** and **export**, you can make your JavaScript code modular, more maintainable, and reusable across different files and applications. Import and export require type="module" in script tag in html file.
 
+A file can only contain one default and an unlimited amount of named exports. You can also mix the one default with any amount of named exports in one and the same file.
+
+When importing **named exports**, you can also import all named exports at once with the following syntax:
+
+`import * as upToYou from './path/to/file.js';`
 ### Arrow function
 
  number => { age: number }; // trying to return an object

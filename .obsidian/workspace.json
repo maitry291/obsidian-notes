@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b7a3a3b71082a3b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/JavaScript - Brain.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Js/JS refresher.md",
+                "file": "JavaScript/JavaScript - Brain.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Js/JS refresher.md",
+                "file": "JavaScript/JavaScript - Brain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Js/JS refresher.md"
+                "file": "JavaScript/JavaScript - Brain.md"
               }
             }
           },
@@ -167,10 +180,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a90c61e7064dfaad",
+  "active": "b7a3a3b71082a3b9",
   "lastOpenFiles": [
-    "JavaScript/JavaScript - Brain.md",
     "React Js/JS refresher.md",
+    "JavaScript/JavaScript - Brain.md",
     "HTML/HTML - skeleton.md",
     "React Js/React Essentials.md",
     "Git/Git, GitHub.md",

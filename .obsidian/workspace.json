@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "b7a3a3b71082a3b9",
+            "id": "da6ad178ab059d47",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "2d189b564d7d41b1",
@@ -202,11 +203,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b7a3a3b71082a3b9",
+  "active": "da6ad178ab059d47",
   "lastOpenFiles": [
     "React Js/JS refresher.md",
-    "React Js/React Essentials.md",
     "JavaScript/JavaScript - Brain.md",
+    "JavaScript/JavaScript.md",
+    "Node JS/Node JS.md",
+    "React Js/React Essentials.md",
     "HTML/HTML - skeleton.md",
     "Git/Git, GitHub.md",
     "CSS/CSS.md",
@@ -217,12 +220,10 @@
     "Git/Git.md",
     "React Js/Reac.md",
     "React Js/React.md",
-    "Node JS/Node JS.md",
     "React Js",
     "Untitled.md",
     "Dashboard.md",
     "2024-08-19.md",
-    "JavaScript/JavaScript.md",
     "HTML/HTML.md",
     "Pasted image 20240213163303.png",
     "Pasted image 20240213155547.png",

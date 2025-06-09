@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "71fb11a7b8c99eee",
+        "id": "71e5ca9be982878c",
         "type": "tabs",
         "children": [
           {
-            "id": "778cb9c798a38b69",
+            "id": "831c5885807740ba",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "CSS/CSS - Skin.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "CSS - Skin"
             }
           }
         ]
@@ -147,9 +149,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "CSS/CSS - Skin.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of CSS - Skin"
             }
           },
           {
@@ -171,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293,
-    "collapsed": true
+    "width": 293
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,18 +191,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "778cb9c798a38b69",
+  "active": "831c5885807740ba",
   "lastOpenFiles": [
+    "CSS/CSS.md",
+    "CSS/CSS - Skin.md",
     "React Js/React Essentials.md",
     "React Js/JS refresher.md",
     "Dashboard.md",
-    "CSS/CSS - Skin.md",
     "JavaScript/JavaScript - Brain.md",
     "JavaScript/JavaScript.md",
     "Node JS/Node JS.md",
     "HTML/HTML - skeleton.md",
     "Git/Git, GitHub.md",
-    "CSS/CSS.md",
     "React Js/React Js.md",
     "Attachments/Attachments.md",
     "Attachments",

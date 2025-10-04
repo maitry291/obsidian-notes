@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "React Js/JS refresher.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript - Brain"
+              "title": "JS refresher"
             }
           }
         ]
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript - Brain.md",
+                "file": "React Js/JS refresher.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JavaScript - Brain"
+              "title": "Outline of JS refresher"
             }
           },
           {
@@ -194,14 +194,14 @@
   },
   "active": "831c5885807740ba",
   "lastOpenFiles": [
+    "Node JS/Node JS.md",
+    "React Js/JS refresher.md",
+    "React Js/React Essentials.md",
+    "JavaScript/JavaScript - Brain.md",
     "CSS/CSS - Skin.md",
     "CSS/CSS.md",
-    "React Js/React Essentials.md",
-    "React Js/JS refresher.md",
     "Dashboard.md",
-    "JavaScript/JavaScript - Brain.md",
     "JavaScript/JavaScript.md",
-    "Node JS/Node JS.md",
     "HTML/HTML - skeleton.md",
     "Git/Git, GitHub.md",
     "React Js/React Js.md",

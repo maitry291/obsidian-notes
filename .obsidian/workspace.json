@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "JS refresher"
             }
+          },
+          {
+            "id": "22d0306e3108f5f3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
         ]
       }
